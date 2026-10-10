@@ -17,11 +17,9 @@ import {
   NotebookPen,
   Menu,
   X,
-  CheckCircle2,
   Database,
   LogIn,
   LogOut,
-  User,
 } from 'lucide-react';
 
 interface NavbarProps {
@@ -48,51 +46,46 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
     { href: '/', label: 'Roadmap', icon: Layers },
     { href: '/modules', label: 'Modules', icon: BookOpen },
     { href: '/quizzes', label: 'Quizzes', icon: HelpCircle },
-    { href: '/cheatsheet', label: 'CLI Cheat Sheet', icon: Terminal },
+    { href: '/cheatsheet', label: 'Cheatsheet', icon: Terminal },
     { href: '/badges', label: 'Badges', icon: Award },
-    { href: '/notes', label: 'My Notes', icon: NotebookPen },
+    { href: '/notes', label: 'Notes', icon: NotebookPen },
   ];
 
   const tracks: { id: TrackYear; label: string; desc: string; days: number }[] = [
-    { id: '2022', label: '2022 DevOps Foundations', desc: 'Core 90 Days Curriculum', days: 90 },
-    { id: '2023', label: '2023 DevSecOps Track', desc: 'Security & Deep Dives', days: 90 },
-    { id: '2024', label: '2024 Community Edition', desc: '91 Community Sessions', days: 91 },
+    { id: '2022', label: '2022 Foundations', desc: 'Core 90 Days Curriculum', days: 90 },
+    { id: '2023', label: '2023 DevSecOps', desc: 'Security & Deep Dives', days: 90 },
+    { id: '2024', label: '2024 Community', desc: '91 Community Sessions', days: 91 },
   ];
 
   return (
     <header className="sticky top-0 z-40 w-full border-b border-slate-800 bg-slate-950/80 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo & Brand */}
-          <div className="flex items-center gap-6">
-            <Link href="/" className="flex items-center gap-3 group">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 via-blue-600 to-indigo-600 flex items-center justify-center shadow-lg shadow-cyan-500/20 group-hover:scale-105 transition-transform">
-                <span className="font-extrabold text-white text-base tracking-tighter">90D</span>
+        <div className="flex items-center justify-between h-16 gap-4">
+          {/* Logo & Brand + Track Switcher */}
+          <div className="flex items-center gap-3 shrink-0">
+            <Link href="/" className="flex items-center gap-2.5 group shrink-0">
+              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-cyan-500 via-blue-600 to-indigo-600 flex items-center justify-center shadow-lg shadow-cyan-500/20 group-hover:scale-105 transition-transform">
+                <span className="font-extrabold text-white text-sm tracking-tighter">90D</span>
               </div>
-              <div className="flex flex-col">
-                <span className="font-bold text-slate-100 text-lg tracking-tight group-hover:text-cyan-400 transition-colors flex items-center gap-1.5">
-                  90DaysOfDevOps
-                  <span className="text-xs px-2 py-0.5 rounded-full bg-cyan-950 text-cyan-400 border border-cyan-800 font-mono font-medium">
-                    {activeTrack}
-                  </span>
+              <span className="font-bold text-slate-100 text-base tracking-tight group-hover:text-cyan-400 transition-colors flex items-center gap-1.5 whitespace-nowrap">
+                90DaysOfDevOps
+                <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-cyan-950 text-cyan-400 border border-cyan-800 font-mono font-medium">
+                  {activeTrack}
                 </span>
-                <span className="text-xs text-slate-400 hidden sm:inline">
-                  Interactive Learning Platform
-                </span>
-              </div>
+              </span>
             </Link>
 
             {/* Track Switcher */}
-            <div className="relative hidden lg:block">
+            <div className="relative hidden xl:block">
               <select
                 value={activeTrack}
                 onChange={(e) => setActiveTrack(e.target.value as TrackYear)}
-                className="bg-slate-900 border border-slate-800 text-slate-300 text-xs rounded-lg px-3 py-1.5 focus:outline-none focus:ring-1 focus:ring-cyan-500 font-medium cursor-pointer hover:bg-slate-800/80 transition-colors"
+                className="bg-slate-900 border border-slate-800 text-slate-300 text-xs rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-cyan-500 font-medium cursor-pointer hover:bg-slate-800/80 transition-colors"
                 aria-label="Select Track"
               >
                 {tracks.map((t) => (
                   <option key={t.id} value={t.id}>
-                    {t.label} ({t.days} Days)
+                    {t.label} ({t.days}d)
                   </option>
                 ))}
               </select>
@@ -100,7 +93,7 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
           </div>
 
           {/* Desktop Nav Links */}
-          <nav className="hidden md:flex items-center gap-1">
+          <nav className="hidden lg:flex items-center gap-1 shrink-0">
             {navLinks.map((link) => {
               const Icon = link.icon;
               const isActive = pathname === link.href || (link.href !== '/' && pathname.startsWith(link.href));
@@ -108,13 +101,13 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+                  className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-colors ${
                     isActive
                       ? 'text-cyan-400 bg-cyan-950/40 border border-cyan-900/50'
                       : 'text-slate-300 hover:text-white hover:bg-slate-900'
                   }`}
                 >
-                  <Icon className="w-4 h-4" />
+                  <Icon className="w-3.5 h-3.5 shrink-0" />
                   <span>{link.label}</span>
                 </Link>
               );
@@ -122,16 +115,16 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
           </nav>
 
           {/* Right Action Widgets */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2 shrink-0">
             {/* Global Search Button */}
             <button
               onClick={onOpenSearch}
-              className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-400 hover:text-slate-200 text-xs transition-colors group cursor-pointer"
+              className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-400 hover:text-slate-200 text-xs transition-colors group cursor-pointer shrink-0"
               title="Search curriculum (Cmd+K)"
             >
-              <Search className="w-3.5 h-3.5 text-slate-400 group-hover:text-cyan-400 transition-colors" />
-              <span className="hidden sm:inline">Search Days...</span>
-              <kbd className="hidden sm:inline-block px-1.5 py-0.5 text-[10px] bg-slate-800 border border-slate-700 rounded text-slate-400 font-mono">
+              <Search className="w-3.5 h-3.5 text-slate-400 group-hover:text-cyan-400 transition-colors shrink-0" />
+              <span className="hidden xl:inline text-xs">Search</span>
+              <kbd className="hidden xl:inline-block px-1.5 py-0.5 text-[10px] bg-slate-800 border border-slate-700 rounded text-slate-400 font-mono">
                 ⌘K
               </kbd>
             </button>
@@ -139,7 +132,7 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
             {/* SQLite Database Sync Badge */}
             <button
               onClick={() => forceSyncDb()}
-              className="hidden sm:flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-xs transition-colors cursor-pointer group"
+              className="hidden sm:flex items-center gap-1.5 px-2 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-xs transition-colors cursor-pointer group shrink-0"
               title={
                 dbSyncStatus === 'synced'
                   ? 'All progress & notes saved in SQLite database'
@@ -149,7 +142,7 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
               }
             >
               <Database
-                className={`w-3.5 h-3.5 ${
+                className={`w-3.5 h-3.5 shrink-0 ${
                   dbSyncStatus === 'synced'
                     ? 'text-emerald-400'
                     : dbSyncStatus === 'saving'
@@ -157,47 +150,30 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
                     : 'text-amber-400'
                 }`}
               />
-              <span className="text-[11px] font-mono text-slate-400 group-hover:text-slate-200">
+              <span className="text-[10px] font-mono text-slate-400 group-hover:text-slate-200 hidden md:inline">
                 {dbSyncStatus === 'synced'
-                  ? 'SQLite DB'
+                  ? 'SQLite'
                   : dbSyncStatus === 'saving'
-                  ? 'Saving...'
-                  : 'Offline DB'}
+                  ? 'Saving'
+                  : 'Offline'}
               </span>
             </button>
 
             {/* Streak Counter */}
             <div
-              className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-gradient-to-r from-amber-950/40 to-orange-950/40 border border-amber-900/40 text-amber-400 text-xs font-semibold"
+              className="flex items-center gap-1 px-2 py-1.5 rounded-lg bg-gradient-to-r from-amber-950/40 to-orange-950/40 border border-amber-900/40 text-amber-400 text-xs font-semibold shrink-0"
               title={`Current Learning Streak: ${progress.currentStreak} days`}
             >
-              <Flame className="w-4 h-4 fill-amber-400 text-amber-500 animate-pulse" />
-              <span>{progress.currentStreak}d</span>
+              <Flame className="w-3.5 h-3.5 fill-amber-400 text-amber-500 animate-pulse shrink-0" />
+              <span className="font-mono text-xs">{progress.currentStreak}d</span>
             </div>
-
-            {/* Overall Progress Pill */}
-            <Link
-              href="/"
-              className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-cyan-800 transition-colors"
-              title={`${completedCount} of 90 days completed`}
-            >
-              <div className="w-16 bg-slate-800 rounded-full h-2 overflow-hidden">
-                <div
-                  className="bg-gradient-to-r from-cyan-500 to-blue-500 h-2 rounded-full transition-all duration-500"
-                  style={{ width: `${Math.min(100, Math.max(5, progressPercentage))}%` }}
-                />
-              </div>
-              <span className="text-xs font-mono font-medium text-slate-300">
-                {progressPercentage}%
-              </span>
-            </Link>
 
             {/* User Authentication Profile */}
             {session?.user ? (
-              <div className="relative">
+              <div className="relative shrink-0">
                 <button
                   onClick={() => setUserMenuOpen(!userMenuOpen)}
-                  className="flex items-center gap-2 p-0.5 rounded-full border border-slate-700 hover:border-cyan-500 transition-colors cursor-pointer"
+                  className="flex items-center gap-1.5 p-0.5 rounded-full border border-slate-700 hover:border-cyan-500 transition-colors cursor-pointer"
                   title={session.user.name || session.user.email || 'My Profile'}
                 >
                   {session.user.image ? (
@@ -239,17 +215,17 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
             ) : (
               <Link
                 href="/auth/signin"
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-semibold shadow-md shadow-cyan-950/50 transition-colors cursor-pointer"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-semibold shadow-md shadow-cyan-950/50 transition-colors cursor-pointer shrink-0"
               >
-                <LogIn className="w-3.5 h-3.5" />
-                <span className="hidden sm:inline">Sign In</span>
+                <LogIn className="w-3.5 h-3.5 shrink-0" />
+                <span>Sign In</span>
               </Link>
             )}
 
             {/* Mobile Menu Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="md:hidden p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-900"
+              className="lg:hidden p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-900 cursor-pointer"
               aria-label="Toggle Menu"
             >
               {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -260,7 +236,7 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-b border-slate-800 bg-slate-950 px-4 pt-3 pb-5 space-y-3">
+        <div className="lg:hidden border-b border-slate-800 bg-slate-950 px-4 pt-3 pb-5 space-y-3">
           <div className="pb-2 border-b border-slate-800">
             <label className="text-xs text-slate-400 block mb-1">Select Track</label>
             <select
