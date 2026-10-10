@@ -20,6 +20,7 @@ import {
   Database,
   LogIn,
   LogOut,
+  ChevronDown,
 } from 'lucide-react';
 
 interface NavbarProps {
@@ -60,40 +61,38 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
   return (
     <header className="sticky top-0 z-40 w-full border-b border-slate-800 bg-slate-950/80 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 gap-4">
-          {/* Logo & Brand + Track Switcher */}
+        <div className="flex items-center justify-between h-16 gap-3">
+          {/* Logo & Brand + Sleek Track Selector */}
           <div className="flex items-center gap-3 shrink-0">
-            <Link href="/" className="flex items-center gap-2.5 group shrink-0">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-cyan-500 via-blue-600 to-indigo-600 flex items-center justify-center shadow-lg shadow-cyan-500/20 group-hover:scale-105 transition-transform">
-                <span className="font-extrabold text-white text-sm tracking-tighter">90D</span>
+            <Link href="/" className="flex items-center gap-2 group shrink-0">
+              <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-cyan-500 via-blue-600 to-indigo-600 flex items-center justify-center shadow-lg shadow-cyan-500/20 group-hover:scale-105 transition-transform">
+                <span className="font-extrabold text-white text-xs tracking-tighter">90D</span>
               </div>
-              <span className="font-bold text-slate-100 text-base tracking-tight group-hover:text-cyan-400 transition-colors flex items-center gap-1.5 whitespace-nowrap">
+              <span className="font-bold text-slate-100 text-sm sm:text-base tracking-tight group-hover:text-cyan-400 transition-colors whitespace-nowrap">
                 90DaysOfDevOps
-                <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-cyan-950 text-cyan-400 border border-cyan-800 font-mono font-medium">
-                  {activeTrack}
-                </span>
               </span>
             </Link>
 
-            {/* Track Switcher */}
-            <div className="relative hidden xl:block">
+            {/* Compact Track Switcher Pill */}
+            <div className="relative inline-flex items-center shrink-0">
               <select
                 value={activeTrack}
                 onChange={(e) => setActiveTrack(e.target.value as TrackYear)}
-                className="bg-slate-900 border border-slate-800 text-slate-300 text-xs rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-cyan-500 font-medium cursor-pointer hover:bg-slate-800/80 transition-colors"
+                className="bg-cyan-950/80 hover:bg-cyan-900 border border-cyan-800 text-cyan-300 font-mono font-bold text-xs rounded-full pl-2.5 pr-6 py-0.5 appearance-none cursor-pointer focus:outline-none focus:ring-1 focus:ring-cyan-400 transition-all shadow-sm"
                 aria-label="Select Track"
               >
                 {tracks.map((t) => (
-                  <option key={t.id} value={t.id}>
-                    {t.label} ({t.days}d)
+                  <option key={t.id} value={t.id} className="bg-slate-900 text-slate-200 font-sans">
+                    {t.id} Track ({t.days}d)
                   </option>
                 ))}
               </select>
+              <ChevronDown className="w-3.5 h-3.5 text-cyan-400 absolute right-1.5 pointer-events-none" />
             </div>
           </div>
 
           {/* Desktop Nav Links */}
-          <nav className="hidden lg:flex items-center gap-1 shrink-0">
+          <nav className="hidden lg:flex items-center gap-0.5 xl:gap-1 shrink-0">
             {navLinks.map((link) => {
               const Icon = link.icon;
               const isActive = pathname === link.href || (link.href !== '/' && pathname.startsWith(link.href));
@@ -101,7 +100,7 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-colors ${
+                  className={`flex items-center gap-1.5 px-2 xl:px-2.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-colors ${
                     isActive
                       ? 'text-cyan-400 bg-cyan-950/40 border border-cyan-900/50'
                       : 'text-slate-300 hover:text-white hover:bg-slate-900'
@@ -119,12 +118,12 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
             {/* Global Search Button */}
             <button
               onClick={onOpenSearch}
-              className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-400 hover:text-slate-200 text-xs transition-colors group cursor-pointer shrink-0"
+              className="flex items-center gap-1.5 p-2 xl:px-2.5 xl:py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-400 hover:text-slate-200 text-xs transition-colors group cursor-pointer shrink-0"
               title="Search curriculum (Cmd+K)"
             >
               <Search className="w-3.5 h-3.5 text-slate-400 group-hover:text-cyan-400 transition-colors shrink-0" />
-              <span className="hidden xl:inline text-xs">Search</span>
-              <kbd className="hidden xl:inline-block px-1.5 py-0.5 text-[10px] bg-slate-800 border border-slate-700 rounded text-slate-400 font-mono">
+              <span className="hidden 2xl:inline text-xs">Search</span>
+              <kbd className="hidden 2xl:inline-block px-1.5 py-0.5 text-[10px] bg-slate-800 border border-slate-700 rounded text-slate-400 font-mono">
                 ⌘K
               </kbd>
             </button>
@@ -132,13 +131,13 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
             {/* SQLite Database Sync Badge */}
             <button
               onClick={() => forceSyncDb()}
-              className="hidden sm:flex items-center gap-1.5 px-2 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-xs transition-colors cursor-pointer group shrink-0"
+              className="hidden sm:flex items-center justify-center p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-xs transition-colors cursor-pointer group shrink-0"
               title={
                 dbSyncStatus === 'synced'
-                  ? 'All progress & notes saved in SQLite database'
+                  ? 'SQLite DB Synced'
                   : dbSyncStatus === 'saving'
-                  ? 'Saving changes to SQLite database...'
-                  : 'Operating locally (Click to retry SQLite sync)'
+                  ? 'Saving changes to SQLite...'
+                  : 'Offline (Click to retry SQLite sync)'
               }
             >
               <Database
@@ -150,18 +149,11 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
                     : 'text-amber-400'
                 }`}
               />
-              <span className="text-[10px] font-mono text-slate-400 group-hover:text-slate-200 hidden md:inline">
-                {dbSyncStatus === 'synced'
-                  ? 'SQLite'
-                  : dbSyncStatus === 'saving'
-                  ? 'Saving'
-                  : 'Offline'}
-              </span>
             </button>
 
             {/* Streak Counter */}
             <div
-              className="flex items-center gap-1 px-2 py-1.5 rounded-lg bg-gradient-to-r from-amber-950/40 to-orange-950/40 border border-amber-900/40 text-amber-400 text-xs font-semibold shrink-0"
+              className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-gradient-to-r from-amber-950/40 to-orange-950/40 border border-amber-900/40 text-amber-400 text-xs font-semibold shrink-0"
               title={`Current Learning Streak: ${progress.currentStreak} days`}
             >
               <Flame className="w-3.5 h-3.5 fill-amber-400 text-amber-500 animate-pulse shrink-0" />
@@ -173,7 +165,7 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
               <div className="relative shrink-0">
                 <button
                   onClick={() => setUserMenuOpen(!userMenuOpen)}
-                  className="flex items-center gap-1.5 p-0.5 rounded-full border border-slate-700 hover:border-cyan-500 transition-colors cursor-pointer"
+                  className="flex items-center gap-1.5 p-0.5 rounded-full border border-slate-700 hover:border-cyan-500 transition-colors cursor-pointer shrink-0"
                   title={session.user.name || session.user.email || 'My Profile'}
                 >
                   {session.user.image ? (
@@ -225,7 +217,7 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="lg:hidden p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-900 cursor-pointer"
+              className="lg:hidden p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-900 cursor-pointer shrink-0"
               aria-label="Toggle Menu"
             >
               {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
