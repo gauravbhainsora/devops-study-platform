@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { SessionProvider } from 'next-auth/react';
 import { ProgressProvider, useProgress } from '@/context/ProgressContext';
 import { Navbar } from './Navbar';
 import { GlobalSearchModal } from './GlobalSearchModal';
@@ -77,8 +78,10 @@ function LayoutInner({ children }: { children: React.ReactNode }) {
 
 export function ClientLayoutWrapper({ children }: { children: React.ReactNode }) {
   return (
-    <ProgressProvider>
-      <LayoutInner>{children}</LayoutInner>
-    </ProgressProvider>
+    <SessionProvider>
+      <ProgressProvider>
+        <LayoutInner>{children}</LayoutInner>
+      </ProgressProvider>
+    </SessionProvider>
   );
 }

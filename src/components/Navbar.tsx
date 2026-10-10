@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useProgress } from '@/context/ProgressContext';
 import { TrackYear } from '@/lib/types';
+import { useSession, signOut } from 'next-auth/react';
 import {
   Flame,
   Search,
@@ -18,6 +19,9 @@ import {
   X,
   CheckCircle2,
   Database,
+  LogIn,
+  LogOut,
+  User,
 } from 'lucide-react';
 
 interface NavbarProps {
@@ -37,6 +41,8 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
   } = useProgress();
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [userMenuOpen, setUserMenuOpen] = useState(false);
+  const { data: session } = useSession();
 
   const navLinks = [
     { href: '/', label: 'Roadmap', icon: Layers },
@@ -186,6 +192,60 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
               </span>
             </Link>
 
+            {/* User Authentication Profile */}
+            {session?.user ? (
+              <div className="relative">
+                <button
+                  onClick={() => setUserMenuOpen(!userMenuOpen)}
+                  className="flex items-center gap-2 p-0.5 rounded-full border border-slate-700 hover:border-cyan-500 transition-colors cursor-pointer"
+                  title={session.user.name || session.user.email || 'My Profile'}
+                >
+                  {session.user.image ? (
+                    <img
+                      src={session.user.image}
+                      alt={session.user.name || 'User'}
+                      className="w-7 h-7 rounded-full object-cover"
+                    />
+                  ) : (
+                    <div className="w-7 h-7 rounded-full bg-cyan-600 text-white flex items-center justify-center text-xs font-bold font-mono">
+                      {(session.user.name || session.user.email || 'U')[0].toUpperCase()}
+                    </div>
+                  )}
+                </button>
+
+                {userMenuOpen && (
+                  <div className="absolute right-0 mt-2 w-56 rounded-xl border border-slate-800 bg-slate-900 shadow-2xl py-1.5 z-50">
+                    <div className="px-3.5 py-2 border-b border-slate-800">
+                      <p className="text-xs font-semibold text-white truncate">
+                        {session.user.name || 'DevOps Learner'}
+                      </p>
+                      <p className="text-[11px] text-slate-400 truncate">
+                        {session.user.email}
+                      </p>
+                    </div>
+                    <button
+                      onClick={() => {
+                        setUserMenuOpen(false);
+                        signOut({ callbackUrl: '/' });
+                      }}
+                      className="w-full text-left px-3.5 py-2 text-xs text-rose-400 hover:bg-slate-800 transition-colors flex items-center gap-2 cursor-pointer"
+                    >
+                      <LogOut className="w-3.5 h-3.5" />
+                      <span>Sign Out</span>
+                    </button>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <Link
+                href="/auth/signin"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-semibold shadow-md shadow-cyan-950/50 transition-colors cursor-pointer"
+              >
+                <LogIn className="w-3.5 h-3.5" />
+                <span className="hidden sm:inline">Sign In</span>
+              </Link>
+            )}
+
             {/* Mobile Menu Button */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -243,6 +303,46 @@ export function Navbar({ onOpenSearch }: NavbarProps) {
             <span className="font-mono text-cyan-400 font-bold">
               {completedCount} / 90 days ({progressPercentage}%)
             </span>
+          </div>
+
+          {/* Mobile User Profile Section */}
+          <div className="pt-2 border-t border-slate-800">
+            {session?.user ? (
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2 min-w-0">
+                  {session.user.image ? (
+                    <img
+                      src={session.user.image}
+                      alt={session.user.name || 'User'}
+                      className="w-7 h-7 rounded-full object-cover"
+                    />
+                  ) : (
+                    <div className="w-7 h-7 rounded-full bg-cyan-600 text-white flex items-center justify-center text-xs font-bold font-mono">
+                      {(session.user.name || session.user.email || 'U')[0].toUpperCase()}
+                    </div>
+                  )}
+                  <div className="min-w-0">
+                    <p className="text-xs font-semibold text-white truncate">{session.user.name}</p>
+                    <p className="text-[10px] text-slate-400 truncate">{session.user.email}</p>
+                  </div>
+                </div>
+                <button
+                  onClick={() => signOut({ callbackUrl: '/' })}
+                  className="px-2.5 py-1 rounded-lg bg-slate-900 border border-slate-800 text-rose-400 text-xs font-medium cursor-pointer"
+                >
+                  Sign Out
+                </button>
+              </div>
+            ) : (
+              <Link
+                href="/auth/signin"
+                onClick={() => setMobileMenuOpen(false)}
+                className="w-full flex items-center justify-center gap-2 py-2 rounded-lg bg-cyan-600 text-white text-xs font-semibold"
+              >
+                <LogIn className="w-4 h-4" />
+                <span>Sign in with Google</span>
+              </Link>
+            )}
           </div>
         </div>
       )}
