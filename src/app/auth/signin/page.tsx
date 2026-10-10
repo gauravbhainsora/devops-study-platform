@@ -63,7 +63,7 @@ function SignInContent() {
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch('/api/auth/status')
+    fetch('/api/auth-status')
       .then((res) => res.json())
       .then((data) => setAuthStatus(data))
       .catch(() => setAuthStatus({ googleConfigured: false, secretConfigured: false }));
