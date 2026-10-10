@@ -3,19 +3,46 @@ import path from 'path';
 import fs from 'fs';
 import { UserProgress } from './types';
 
-const DATA_DIR = path.join(process.cwd(), 'data');
-if (!fs.existsSync(DATA_DIR)) {
-  fs.mkdirSync(DATA_DIR, { recursive: true });
-}
+function getDbPath(): string {
+  if (process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME) {
+    const tmpDataDir = '/tmp/data';
+    if (!fs.existsSync(tmpDataDir)) {
+      try {
+        fs.mkdirSync(tmpDataDir, { recursive: true });
+      } catch (e) {
+        console.error('Failed to create /tmp/data:', e);
+      }
+    }
+    const tmpDbPath = path.join(tmpDataDir, 'platform.db');
+    const bundledDbPath = path.join(process.cwd(), 'data', 'platform.db');
+    if (!fs.existsSync(tmpDbPath) && fs.existsSync(bundledDbPath)) {
+      try {
+        fs.copyFileSync(bundledDbPath, tmpDbPath);
+      } catch (e) {
+        console.error('Failed to copy bundled db to /tmp:', e);
+      }
+    }
+    return tmpDbPath;
+  }
 
-const DB_PATH = path.join(DATA_DIR, 'platform.db');
+  const localDataDir = path.join(process.cwd(), 'data');
+  if (!fs.existsSync(localDataDir)) {
+    fs.mkdirSync(localDataDir, { recursive: true });
+  }
+  return path.join(localDataDir, 'platform.db');
+}
 
 let dbInstance: Database.Database | null = null;
 
 export function getDb(): Database.Database {
   if (!dbInstance) {
-    dbInstance = new Database(DB_PATH);
-    dbInstance.pragma('journal_mode = WAL');
+    const dbPath = getDbPath();
+    dbInstance = new Database(dbPath);
+    try {
+      dbInstance.pragma('journal_mode = WAL');
+    } catch {
+      // fallback if WAL unsupported
+    }
     initTables(dbInstance);
   }
   return dbInstance;
