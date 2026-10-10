@@ -1,0 +1,3982 @@
+{
+  "2022": [
+    {
+      "id": "2022-1",
+      "year": "2022",
+      "day": 1,
+      "slug": "day-01",
+      "title": "Introduction",
+      "description": "90DaysOfDevOps - Introduction",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "DevOps Culture & Fundamentals",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-2",
+      "year": "2022",
+      "day": 2,
+      "slug": "day-02",
+      "title": "Responsibilities of a DevOps Engineer",
+      "description": "90DaysOfDevOps - Responsibilities of a DevOps Engineer",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "DevOps Culture & Fundamentals",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-3",
+      "year": "2022",
+      "day": 3,
+      "slug": "day-03",
+      "title": "Application Focused",
+      "description": "90DaysOfDevOps - Application Focused",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "DevOps Culture & Fundamentals",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2022-4",
+      "year": "2022",
+      "day": 4,
+      "slug": "day-04",
+      "title": "DevOps & Agile",
+      "description": "90DaysOfDevOps - DevOps & Agile",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "DevOps Culture & Fundamentals",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-5",
+      "year": "2022",
+      "day": 5,
+      "slug": "day-05",
+      "title": "Plan > Code > Build > Testing > Release > Deploy > Operate > Monitor >",
+      "description": "90DaysOfDevOps - Plan > Code > Build > Testing > Release > Deploy > Operate > Monitor >",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "DevOps Culture & Fundamentals",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2022-6",
+      "year": "2022",
+      "day": 6,
+      "slug": "day-06",
+      "title": "DevOps - The real stories",
+      "description": "90DaysOfDevOps - DevOps - The real stories",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "DevOps Culture & Fundamentals",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2022-7",
+      "year": "2022",
+      "day": 7,
+      "slug": "day-07",
+      "title": "The Big Picture: Learning a Programming Language",
+      "description": "90DaysOfDevOps - The Big Picture DevOps & Learning a Programming Language",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Programming Fundamentals (Go)",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2022-8",
+      "year": "2022",
+      "day": 8,
+      "slug": "day-08",
+      "title": "Setting up your DevOps environment for Go & Hello World",
+      "description": "90DaysOfDevOps - Setting up your DevOps environment for Go & Hello World",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Programming Fundamentals (Go)",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2022-9",
+      "year": "2022",
+      "day": 9,
+      "slug": "day-09",
+      "title": "Let's explain the Hello World code",
+      "description": "90DaysOfDevOps - Let's explain the Hello World code",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Programming Fundamentals (Go)",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2022-10",
+      "year": "2022",
+      "day": 10,
+      "slug": "day-10",
+      "title": "The Go Workspace",
+      "description": "90DaysOfDevOps - The Go Workspace",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Programming Fundamentals (Go)",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2022-11",
+      "year": "2022",
+      "day": 11,
+      "slug": "day-11",
+      "title": "Variables & Constants in Go",
+      "description": "90DaysOfDevOps - Variables & Constants in Go",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Programming Fundamentals (Go)",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2022-12",
+      "year": "2022",
+      "day": 12,
+      "slug": "day-12",
+      "title": "Getting user input with Pointers and a finished program",
+      "description": "90DaysOfDevOps - Getting user input with Pointers and a finished program",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Programming Fundamentals (Go)",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2022-13",
+      "year": "2022",
+      "day": 13,
+      "slug": "day-13",
+      "title": "Tweet your progress with our new App",
+      "description": "90DaysOfDevOps - Tweet your progress with our new App",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Programming Fundamentals (Go)",
+      "estimatedMinutes": 11
+    },
+    {
+      "id": "2022-14",
+      "year": "2022",
+      "day": 14,
+      "slug": "day-14",
+      "title": "The Big Picture: DevOps and Linux",
+      "description": "90DaysOfDevOps - The Big Picture DevOps and Linux",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Linux Administration & Scripting",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2022-15",
+      "year": "2022",
+      "day": 15,
+      "slug": "day-15",
+      "title": "Linux Commands for DevOps (Actually everyone)",
+      "description": "90DaysOfDevOps - Linux Commands for DevOps (Actually everyone)",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Linux Administration & Scripting",
+      "estimatedMinutes": 12
+    },
+    {
+      "id": "2022-16",
+      "year": "2022",
+      "day": 16,
+      "slug": "day-16",
+      "title": "Managing your Linux System, Filesystem & Storage",
+      "description": "90DaysOfDevOps - Managing your Linux System, Filesystem & Storage",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Linux Administration & Scripting",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2022-17",
+      "year": "2022",
+      "day": 17,
+      "slug": "day-17",
+      "title": "Text Editors - nano vs vim",
+      "description": "90DaysOfDevOps - Text Editors - nano vs vim",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Linux Administration & Scripting",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2022-18",
+      "year": "2022",
+      "day": 18,
+      "slug": "day-18",
+      "title": "SSH & Web Server",
+      "description": "90DaysOfDevOps - SSH & Web Server",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Linux Administration & Scripting",
+      "estimatedMinutes": 9
+    },
+    {
+      "id": "2022-19",
+      "year": "2022",
+      "day": 19,
+      "slug": "day-19",
+      "title": "Automate tasks with bash scripts",
+      "description": "90DaysOfDevOps - Automate tasks with bash scripts",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Linux Administration & Scripting",
+      "estimatedMinutes": 13
+    },
+    {
+      "id": "2022-20",
+      "year": "2022",
+      "day": 20,
+      "slug": "day-20",
+      "title": "Dev workstation setup - All the pretty things",
+      "description": "90DaysOfDevOps - Dev workstation setup - All the pretty things",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Linux Administration & Scripting",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2022-21",
+      "year": "2022",
+      "day": 21,
+      "slug": "day-21",
+      "title": "The Big Picture: DevOps and Networking",
+      "description": "90DaysOfDevOps - The Big Picture DevOps and Networking",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Computer Networking for DevOps",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-22",
+      "year": "2022",
+      "day": 22,
+      "slug": "day-22",
+      "title": "The OSI Model - The 7 Layers",
+      "description": "90DaysOfDevOps - The OSI Model - The 7 Layers",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Computer Networking for DevOps",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-23",
+      "year": "2022",
+      "day": 23,
+      "slug": "day-23",
+      "title": "Network Protocols",
+      "description": "90DaysOfDevOps - Network Protocols",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Computer Networking for DevOps",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-24",
+      "year": "2022",
+      "day": 24,
+      "slug": "day-24",
+      "title": "Network Automation",
+      "description": "90DaysOfDevOps - Network Automation",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Computer Networking for DevOps",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2022-25",
+      "year": "2022",
+      "day": 25,
+      "slug": "day-25",
+      "title": "Python for Network Automation",
+      "description": "90DaysOfDevOps - Python for Network Automation",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Computer Networking for DevOps",
+      "estimatedMinutes": 9
+    },
+    {
+      "id": "2022-26",
+      "year": "2022",
+      "day": 26,
+      "slug": "day-26",
+      "title": "Building our Lab",
+      "description": "90DaysOfDevOps - Building our Lab",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Computer Networking for DevOps",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2022-27",
+      "year": "2022",
+      "day": 27,
+      "slug": "day-27",
+      "title": "Getting Hands-On with Python & Network",
+      "description": "90DaysOfDevOps - Getting Hands-On with Python & Network",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Computer Networking for DevOps",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2022-28",
+      "year": "2022",
+      "day": 28,
+      "slug": "day-28",
+      "title": "The Big Picture: DevOps & The Cloud",
+      "description": "90DaysOfDevOps - The Big Picture DevOps & The Cloud",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "Cloud Foundations (AWS & Azure)",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2022-29",
+      "year": "2022",
+      "day": 29,
+      "slug": "day-29",
+      "title": "Microsoft Azure Fundamentals",
+      "description": "90DaysOfDevOps - Microsoft Azure Fundamentals",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "Cloud Foundations (AWS & Azure)",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2022-30",
+      "year": "2022",
+      "day": 30,
+      "slug": "day-30",
+      "title": "Microsoft Azure Security Models",
+      "description": "90DaysOfDevOps - Microsoft Azure Security Models",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "Cloud Foundations (AWS & Azure)",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2022-31",
+      "year": "2022",
+      "day": 31,
+      "slug": "day-31",
+      "title": "Microsoft Azure Compute Models",
+      "description": "90DaysOfDevOps - Microsoft Azure Compute Models",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "Cloud Foundations (AWS & Azure)",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-32",
+      "year": "2022",
+      "day": 32,
+      "slug": "day-32",
+      "title": "Microsoft Azure Storage Models",
+      "description": "90DaysOfDevOps - Microsoft Azure Storage Models",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "Cloud Foundations (AWS & Azure)",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2022-33",
+      "year": "2022",
+      "day": 33,
+      "slug": "day-33",
+      "title": "Microsoft Azure Networking Models + Azure Management",
+      "description": "90DaysOfDevOps - Microsoft Azure Networking Models + Azure Management",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "Cloud Foundations (AWS & Azure)",
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "2022-34",
+      "year": "2022",
+      "day": 34,
+      "slug": "day-34",
+      "title": "Microsoft Azure Hands-On Scenarios",
+      "description": "90DaysOfDevOps - Microsoft Azure Hands-On Scenarios",
+      "tags": [
+        "DevOps",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "Cloud Foundations (AWS & Azure)",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-35",
+      "year": "2022",
+      "day": 35,
+      "slug": "day-35",
+      "title": "The Big Picture: Git - Version Control",
+      "description": "90DaysOfDevOps - The Big Picture Git - Version Control",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Git & Version Control Mastery",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2022-36",
+      "year": "2022",
+      "day": 36,
+      "slug": "day-36",
+      "title": "Installing & Configuring Git",
+      "description": "90DaysOfDevOps - Installing & Configuring Git",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Git & Version Control Mastery",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-37",
+      "year": "2022",
+      "day": 37,
+      "slug": "day-37",
+      "title": "Gitting to know Git",
+      "description": "90DaysOfDevOps - Gitting to know Git",
+      "tags": [
+        "DevOps",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Git & Version Control Mastery",
+      "estimatedMinutes": 11
+    },
+    {
+      "id": "2022-38",
+      "year": "2022",
+      "day": 38,
+      "slug": "day-38",
+      "title": "Staging & Changing",
+      "description": "90DaysOfDevOps - Staging & Changing",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Git & Version Control Mastery",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2022-39",
+      "year": "2022",
+      "day": 39,
+      "slug": "day-39",
+      "title": "Viewing, unstaging, discarding & restoring",
+      "description": "90DaysOfDevOps - Viewing, unstaging, discarding & restoring",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Git & Version Control Mastery",
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "2022-40",
+      "year": "2022",
+      "day": 40,
+      "slug": "day-40",
+      "title": "Social Network for code",
+      "description": "90DaysOfDevOps - Social Network for code",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Git & Version Control Mastery",
+      "estimatedMinutes": 13
+    },
+    {
+      "id": "2022-41",
+      "year": "2022",
+      "day": 41,
+      "slug": "day-41",
+      "title": "The Open Source Workflow",
+      "description": "90DaysOfDevOps - The Open Source Workflow",
+      "tags": [
+        "DevOps",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Git & Version Control Mastery",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2022-42",
+      "year": "2022",
+      "day": 42,
+      "slug": "day-42",
+      "title": "The Big Picture: Containers",
+      "description": "90DaysOfDevOps - The Big Picture Containers",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Containers & Docker Architecture",
+      "estimatedMinutes": 11
+    },
+    {
+      "id": "2022-43",
+      "year": "2022",
+      "day": 43,
+      "slug": "day-43",
+      "title": "What is Docker & Getting installed",
+      "description": "90DaysOfDevOps - What is Docker & Getting installed",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Containers & Docker Architecture",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2022-44",
+      "year": "2022",
+      "day": 44,
+      "slug": "day-44",
+      "title": "Docker Images & Hands-On with Docker Desktop",
+      "description": "90DaysOfDevOps - Docker Images & Hands-On with Docker Desktop",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Containers & Docker Architecture",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2022-45",
+      "year": "2022",
+      "day": 45,
+      "slug": "day-45",
+      "title": "The anatomy of a Docker Image",
+      "description": "90DaysOfDevOps - The anatomy of a Docker Image",
+      "tags": [
+        "DevOps",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Containers & Docker Architecture",
+      "estimatedMinutes": 9
+    },
+    {
+      "id": "2022-46",
+      "year": "2022",
+      "day": 46,
+      "slug": "day-46",
+      "title": "Docker Compose",
+      "description": "90DaysOfDevOps - Docker Compose",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Containers & Docker Architecture",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2022-47",
+      "year": "2022",
+      "day": 47,
+      "slug": "day-47",
+      "title": "Docker Networking & Security",
+      "description": "90DaysOfDevOps - Docker Networking & Security",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Containers & Docker Architecture",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2022-48",
+      "year": "2022",
+      "day": 48,
+      "slug": "day-48",
+      "title": "Alternatives to Docker",
+      "description": "90DaysOfDevOps - Alternatives to Docker",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Containers & Docker Architecture",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-49",
+      "year": "2022",
+      "day": 49,
+      "slug": "day-49",
+      "title": "The Big Picture: Kubernetes",
+      "description": "90DaysOfDevOps - The Big Picture Kubernetes",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "Kubernetes & Orchestration",
+      "estimatedMinutes": 12
+    },
+    {
+      "id": "2022-50",
+      "year": "2022",
+      "day": 50,
+      "slug": "day-50",
+      "title": "Choosing your Kubernetes platform",
+      "description": "90DaysOfDevOps - Choosing your Kubernetes platform",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "Kubernetes & Orchestration",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-51",
+      "year": "2022",
+      "day": 51,
+      "slug": "day-51",
+      "title": "Deploying your first Kubernetes Cluster",
+      "description": "90DaysOfDevOps - Deploying your first Kubernetes Cluster",
+      "tags": [
+        "DevOps",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "Kubernetes & Orchestration",
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "2022-52",
+      "year": "2022",
+      "day": 52,
+      "slug": "day-52",
+      "title": "Setting up a multinode Kubernetes Cluster",
+      "description": "90DaysOfDevOps - Setting up a multinode Kubernetes Cluster",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "Kubernetes & Orchestration",
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "2022-53",
+      "year": "2022",
+      "day": 53,
+      "slug": "day-53",
+      "title": "Rancher Overview - Hands On",
+      "description": "90DaysOfDevOps - Rancher Overview - Hands On",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "Kubernetes & Orchestration",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2022-54",
+      "year": "2022",
+      "day": 54,
+      "slug": "day-54",
+      "title": "Kubernetes Application Deployment",
+      "description": "90DaysOfDevOps - Kubernetes Application Deployment",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "Kubernetes & Orchestration",
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "2022-55",
+      "year": "2022",
+      "day": 55,
+      "slug": "day-55",
+      "title": "State and Ingress in Kubernetes",
+      "description": "90DaysOfDevOps - State and Ingress in Kubernetes",
+      "tags": [
+        "DevOps",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "Kubernetes & Orchestration",
+      "estimatedMinutes": 12
+    },
+    {
+      "id": "2022-56",
+      "year": "2022",
+      "day": 56,
+      "slug": "day-56",
+      "title": "The Big Picture: IaC",
+      "description": "90DaysOfDevOps - The Big Picture IaC",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Infrastructure as Code (Terraform)",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2022-57",
+      "year": "2022",
+      "day": 57,
+      "slug": "day-57",
+      "title": "An intro to Terraform",
+      "description": "90DaysOfDevOps - An intro to Terraform",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Infrastructure as Code (Terraform)",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2022-58",
+      "year": "2022",
+      "day": 58,
+      "slug": "day-58",
+      "title": "HashiCorp Configuration Language (HCL)",
+      "description": "90DaysOfDevOps - HashiCorp Configuration Language (HCL)",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Infrastructure as Code (Terraform)",
+      "estimatedMinutes": 11
+    },
+    {
+      "id": "2022-59",
+      "year": "2022",
+      "day": 59,
+      "slug": "day-59",
+      "title": "Create a VM with Terraform & Variables",
+      "description": "90DaysOfDevOps - Create a VM with Terraform & Variables",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Infrastructure as Code (Terraform)",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2022-60",
+      "year": "2022",
+      "day": 60,
+      "slug": "day-60",
+      "title": "Docker Containers, Provisioners & Modules",
+      "description": "90DaysOfDevOps - Docker Containers, Provisioners & Modules",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Infrastructure as Code (Terraform)",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-61",
+      "year": "2022",
+      "day": 61,
+      "slug": "day-61",
+      "title": "Kubernetes & Multiple Environments",
+      "description": "90DaysOfDevOps - Kubernetes & Multiple Environments",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Infrastructure as Code (Terraform)",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2022-62",
+      "year": "2022",
+      "day": 62,
+      "slug": "day-62",
+      "title": "Testing, Tools & Alternatives",
+      "description": "90DaysOfDevOps - Testing, Tools & Alternatives",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Infrastructure as Code (Terraform)",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2022-63",
+      "year": "2022",
+      "day": 63,
+      "slug": "day-63",
+      "title": "The Big Picture: Configuration Management",
+      "description": "90DaysOfDevOps - The Big Picture Configuration Management",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "Configuration Management (Ansible)",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-64",
+      "year": "2022",
+      "day": 64,
+      "slug": "day-64",
+      "title": "Ansible: Getting Started",
+      "description": "90DaysOfDevOps - Ansible: Getting Started",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "Configuration Management (Ansible)",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-65",
+      "year": "2022",
+      "day": 65,
+      "slug": "day-65",
+      "title": "Ansible Playbooks",
+      "description": "90DaysOfDevOps - Ansible Playbooks",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "Configuration Management (Ansible)",
+      "estimatedMinutes": 12
+    },
+    {
+      "id": "2022-66",
+      "year": "2022",
+      "day": 66,
+      "slug": "day-66",
+      "title": "Ansible Playbooks Continued...",
+      "description": "90DaysOfDevOps - Ansible Playbooks Continued...",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "Configuration Management (Ansible)",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2022-67",
+      "year": "2022",
+      "day": 67,
+      "slug": "day-67",
+      "title": "Using Roles & Deploying a Loadbalancer",
+      "description": "90DaysOfDevOps - Using Roles & Deploying a Loadbalancer",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "Configuration Management (Ansible)",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2022-68",
+      "year": "2022",
+      "day": 68,
+      "slug": "day-68",
+      "title": "Tags, Variables, Inventory & Database Server config",
+      "description": "90DaysOfDevOps - Tags, Variables, Inventory & Database Server config",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "Configuration Management (Ansible)",
+      "estimatedMinutes": 12
+    },
+    {
+      "id": "2022-69",
+      "year": "2022",
+      "day": 69,
+      "slug": "day-69",
+      "title": "All other things Ansible - Automation Controller (Tower), AWX, Vault",
+      "description": "90DaysOfDevOps - All other things Ansible - Automation Controller (Tower), AWX, Vault",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "Configuration Management (Ansible)",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-70",
+      "year": "2022",
+      "day": 70,
+      "slug": "day-70",
+      "title": "The Big Picture: CI/CD Pipelines",
+      "description": "90DaysOfDevOps - The Big Picture CI/CD Pipelines",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "CI/CD Pipelines & Automation",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2022-71",
+      "year": "2022",
+      "day": 71,
+      "slug": "day-71",
+      "title": "What is Jenkins?",
+      "description": "90DaysOfDevOps - What is Jenkins?",
+      "tags": [
+        "DevOps",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "CI/CD Pipelines & Automation",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-72",
+      "year": "2022",
+      "day": 72,
+      "slug": "day-72",
+      "title": "Getting hands-on with Jenkins",
+      "description": "90DaysOfDevOps - Getting hands-on with Jenkins",
+      "tags": [
+        "DevOps",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "CI/CD Pipelines & Automation",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2022-73",
+      "year": "2022",
+      "day": 73,
+      "slug": "day-73",
+      "title": "Building a Jenkins Pipeline",
+      "description": "90DaysOfDevOps - Building a Jenkins Pipeline",
+      "tags": [
+        "DevOps",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "CI/CD Pipelines & Automation",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-74",
+      "year": "2022",
+      "day": 74,
+      "slug": "day-74",
+      "title": "Hello World - Jenkinsfile App Pipeline",
+      "description": "90DaysOfDevOps - Hello World - Jenkinsfile App Pipeline",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "CI/CD Pipelines & Automation",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2022-75",
+      "year": "2022",
+      "day": 75,
+      "slug": "day-75",
+      "title": "GitHub Actions Overview",
+      "description": "90DaysOfDevOps - GitHub Actions Overview",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "CI/CD Pipelines & Automation",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2022-76",
+      "year": "2022",
+      "day": 76,
+      "slug": "day-76",
+      "title": "ArgoCD Overview",
+      "description": "90DaysOfDevOps - ArgoCD Overview",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "CI/CD Pipelines & Automation",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2022-77",
+      "year": "2022",
+      "day": 77,
+      "slug": "day-77",
+      "title": "The Big Picture: Monitoring",
+      "description": "90DaysOfDevOps - The Big Picture Monitoring",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Monitoring, Observability & Logs",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2022-78",
+      "year": "2022",
+      "day": 78,
+      "slug": "day-78",
+      "title": "Hands-On Monitoring Tools",
+      "description": "90DaysOfDevOps - Hands-On Monitoring Tools",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Monitoring, Observability & Logs",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2022-79",
+      "year": "2022",
+      "day": 79,
+      "slug": "day-79",
+      "title": "The Big Picture: Log Management",
+      "description": "90DaysOfDevOps - The Big Picture Log Management",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Monitoring, Observability & Logs",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2022-80",
+      "year": "2022",
+      "day": 80,
+      "slug": "day-80",
+      "title": "ELK Stack",
+      "description": "90DaysOfDevOps - ELK Stack",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Monitoring, Observability & Logs",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2022-81",
+      "year": "2022",
+      "day": 81,
+      "slug": "day-81",
+      "title": "Fluentd & FluentBit",
+      "description": "90DaysOfDevOps - Fluentd & FluentBit",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Monitoring, Observability & Logs",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-82",
+      "year": "2022",
+      "day": 82,
+      "slug": "day-82",
+      "title": "EFK Stack",
+      "description": "90DaysOfDevOps - EFK Stack",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Monitoring, Observability & Logs",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2022-83",
+      "year": "2022",
+      "day": 83,
+      "slug": "day-83",
+      "title": "Data Visualisation - Grafana",
+      "description": "90DaysOfDevOps - Data Visualisation - Grafana",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Monitoring, Observability & Logs",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2022-84",
+      "year": "2022",
+      "day": 84,
+      "slug": "day-84",
+      "title": "The Big Picture: Data Management",
+      "description": "90DaysOfDevOps - The Big Picture Data Management",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Data Storage, Backup & Security",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-85",
+      "year": "2022",
+      "day": 85,
+      "slug": "day-85",
+      "title": "Data Services",
+      "description": "90DaysOfDevOps - Data Services",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Data Storage, Backup & Security",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2022-86",
+      "year": "2022",
+      "day": 86,
+      "slug": "day-86",
+      "title": "Backup all the platforms",
+      "description": "90DaysOfDevOps - Backup all the platforms",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Data Storage, Backup & Security",
+      "estimatedMinutes": 13
+    },
+    {
+      "id": "2022-87",
+      "year": "2022",
+      "day": 87,
+      "slug": "day-87",
+      "title": "Hands-On Backup & Recovery",
+      "description": "90DaysOfDevOps - Hands-On Backup & Recovery",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Data Storage, Backup & Security",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2022-88",
+      "year": "2022",
+      "day": 88,
+      "slug": "day-88",
+      "title": "Application Focused Backup",
+      "description": "90DaysOfDevOps - Application Focused Backups",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Data Storage, Backup & Security",
+      "estimatedMinutes": 9
+    },
+    {
+      "id": "2022-89",
+      "year": "2022",
+      "day": 89,
+      "slug": "day-89",
+      "title": "Disaster Recovery",
+      "description": "90DaysOfDevOps - Disaster Recovery",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Data Storage, Backup & Security",
+      "estimatedMinutes": 9
+    },
+    {
+      "id": "2022-90",
+      "year": "2022",
+      "day": 90,
+      "slug": "day-90",
+      "title": "Data & Application Mobility",
+      "description": "90DaysOfDevOps - Data & Application Mobility",
+      "tags": [
+        "devops",
+        "90daysofdevops",
+        "learning"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Data Storage, Backup & Security",
+      "estimatedMinutes": 6
+    }
+  ],
+  "2023": [
+    {
+      "id": "2023-1",
+      "year": "2023",
+      "day": 1,
+      "slug": "day-01",
+      "title": "2022 Reflection & Welcome 2023",
+      "description": "Day 1 topic: 2022 Reflection & Welcome 2023",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "DevSecOps Mindset & Foundations",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2023-2",
+      "year": "2023",
+      "day": 2,
+      "slug": "day-02",
+      "title": "The Big Picture: DevSecOps",
+      "description": "Day 2 topic: The Big Picture: DevSecOps",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "DevSecOps Mindset & Foundations",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2023-3",
+      "year": "2023",
+      "day": 3,
+      "slug": "day-03",
+      "title": "Think Like an Attacker",
+      "description": "Day 3 topic: Think Like an Attacker",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "DevSecOps Mindset & Foundations",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-4",
+      "year": "2023",
+      "day": 4,
+      "slug": "day-04",
+      "title": "<span style=\"color:red\">Red Team</span> vs. <span style=\"color:blue\">Blue Team</span>",
+      "description": "Day 4 topic: <span style=\"color:red\">Red Team</span> vs. <span style=\"color:blue\">Blue Team</span>",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "DevSecOps Mindset & Foundations",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2023-5",
+      "year": "2023",
+      "day": 5,
+      "slug": "day-05",
+      "title": "Open Source Security",
+      "description": "Day 5 topic: Open Source Security ",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "DevSecOps Mindset & Foundations",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2023-6",
+      "year": "2023",
+      "day": 6,
+      "slug": "day-06",
+      "title": "Hands-On: Building a weak app",
+      "description": "Day 6 topic: Hands-On: Building a weak app",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "DevSecOps Mindset & Foundations",
+      "estimatedMinutes": 9
+    },
+    {
+      "id": "2023-7",
+      "year": "2023",
+      "day": 7,
+      "slug": "day-07",
+      "title": "Secure Coding Overview",
+      "description": "Day 7 topic: Day 7: Secure Coding Overview",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Secure Coding & SAST",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-8",
+      "year": "2023",
+      "day": 8,
+      "slug": "day-08",
+      "title": "SAST Overview",
+      "description": "Day 8 topic: Day 8: SAST Overview",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Secure Coding & SAST",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-9",
+      "year": "2023",
+      "day": 9,
+      "slug": "day-09",
+      "title": "SAST Implementation with SonarCloud",
+      "description": "Day 9 topic: Day 9: SAST Implementation with SonarCloud",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Secure Coding & SAST",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-10",
+      "year": "2023",
+      "day": 10,
+      "slug": "day-10",
+      "title": "Software Composition Analysis Overview",
+      "description": "Day 10 topic: Day 10: Software Composition Analysis Overview",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Secure Coding & SAST",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-11",
+      "year": "2023",
+      "day": 11,
+      "slug": "day-11",
+      "title": "SCA Implementation with OWASP Dependency Check",
+      "description": "Day 11 topic: Day 11: SCA Implementation with OWASP Dependency Check",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Secure Coding & SAST",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2023-12",
+      "year": "2023",
+      "day": 12,
+      "slug": "day-12",
+      "title": "Secure Coding Review",
+      "description": "Day 12 topic: Day 12: Secure Coding Review",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Secure Coding & SAST",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2023-13",
+      "year": "2023",
+      "day": 13,
+      "slug": "day-13",
+      "title": "Additional Secure Coding Practices",
+      "description": "Day 13 topic: Day 13: Additional Secure Coding Practices",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Secure Coding & SAST",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2023-14",
+      "year": "2023",
+      "day": 14,
+      "slug": "day-14",
+      "title": "Container Image Scanning",
+      "description": "Day 14 topic: Container Image Scanning",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Continuous Build, Integration & Testing",
+      "estimatedMinutes": 11
+    },
+    {
+      "id": "2023-15",
+      "year": "2023",
+      "day": 15,
+      "slug": "day-15",
+      "title": "Container Image Scanning Advanced",
+      "description": "Day 15 topic: Container Image Scanning Advanced",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Continuous Build, Integration & Testing",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2023-16",
+      "year": "2023",
+      "day": 16,
+      "slug": "day-16",
+      "title": "Fuzzing",
+      "description": "Day 16 topic: Fuzzing",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Continuous Build, Integration & Testing",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-17",
+      "year": "2023",
+      "day": 17,
+      "slug": "day-17",
+      "title": "Fuzzing Advanced",
+      "description": "Day 17 topic: Fuzzing Advanced",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Continuous Build, Integration & Testing",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2023-18",
+      "year": "2023",
+      "day": 18,
+      "slug": "day-18",
+      "title": "DAST",
+      "description": "Day 18 topic: DAST",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Continuous Build, Integration & Testing",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2023-19",
+      "year": "2023",
+      "day": 19,
+      "slug": "day-19",
+      "title": "IAST (Interactive Application Security Testing)",
+      "description": "Day 19 topic: IAST (Interactive Application Security Testing)",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Continuous Build, Integration & Testing",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-20",
+      "year": "2023",
+      "day": 20,
+      "slug": "day-20",
+      "title": "IAST and DAST in conjunction - lab time",
+      "description": "Day 20 topic: IAST and DAST in conjunction - lab time",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Continuous Build, Integration & Testing",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-21",
+      "year": "2023",
+      "day": 21,
+      "slug": "day-21",
+      "title": "Continuous Image Repository Scan",
+      "description": "Day 21 topic: Continuous Image Repository Scan",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Continuous Delivery & Deployment Security",
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "2023-22",
+      "year": "2023",
+      "day": 22,
+      "slug": "day-22",
+      "title": "Continuous Image Repository Scan - Container Registries",
+      "description": "Day 22 topic: Continuous Image Repository Scan - Container Registries",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Continuous Delivery & Deployment Security",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2023-23",
+      "year": "2023",
+      "day": 23,
+      "slug": "day-23",
+      "title": "Artifacts Scan",
+      "description": "Day 23 topic: Artifacts Scan",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Continuous Delivery & Deployment Security",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-24",
+      "year": "2023",
+      "day": 24,
+      "slug": "day-24",
+      "title": "Signing",
+      "description": "Day 24 topic: Signing",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Continuous Delivery & Deployment Security",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2023-25",
+      "year": "2023",
+      "day": 25,
+      "slug": "day-25",
+      "title": "Systems Vulnerability Scanning",
+      "description": "Day 25 topic: Systems Vulnerability Scanning",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Continuous Delivery & Deployment Security",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-26",
+      "year": "2023",
+      "day": 26,
+      "slug": "day-26",
+      "title": "Containers Vulnerability Scanning",
+      "description": "Day 26 topic: Containers Vulnerability Scanning",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Continuous Delivery & Deployment Security",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2023-27",
+      "year": "2023",
+      "day": 27,
+      "slug": "day-27",
+      "title": "Network Vulnerability Scan",
+      "description": "Day 27 topic: Network Vulnerability Scan",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Continuous Delivery & Deployment Security",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-28",
+      "year": "2023",
+      "day": 28,
+      "slug": "day-28",
+      "title": "Introduction to Runtime Defence & Monitoring",
+      "description": "Day 28 topic: Introduction to Runtime Defence & Monitoring",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "Runtime Defence & Container Security",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2023-29",
+      "year": "2023",
+      "day": 29,
+      "slug": "day-29",
+      "title": "Recap",
+      "description": "Day 29 topic: Recap",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "Runtime Defence & Container Security",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2023-30",
+      "year": "2023",
+      "day": 30,
+      "slug": "day-30",
+      "title": "Recap",
+      "description": "Day 30 topic: Recap",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "Runtime Defence & Container Security",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2023-31",
+      "year": "2023",
+      "day": 31,
+      "slug": "day-31",
+      "title": "Network security in runtime",
+      "description": "Day 31 topic: Network security in runtime",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "Runtime Defence & Container Security",
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "2023-32",
+      "year": "2023",
+      "day": 32,
+      "slug": "day-32",
+      "title": "Vulnerability and patch management",
+      "description": "Day 32 topic: Vulnerability and patch management",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "Runtime Defence & Container Security",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2023-33",
+      "year": "2023",
+      "day": 33,
+      "slug": "day-33",
+      "title": "Application runtime policies",
+      "description": "Day 33 topic: Application runtime policies",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "Runtime Defence & Container Security",
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "2023-34",
+      "year": "2023",
+      "day": 34,
+      "slug": "day-34",
+      "title": "Runtime access control",
+      "description": "Day 34 topic: Runtime access control",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "Runtime Defence & Container Security",
+      "estimatedMinutes": 12
+    },
+    {
+      "id": "2023-35",
+      "year": "2023",
+      "day": 35,
+      "slug": "day-35",
+      "title": "Understanding the Importance of Secrets Management",
+      "description": "Day 35 topic: Understanding the Importance of Secrets Management",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Secrets Management & HashiCorp Vault",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2023-36",
+      "year": "2023",
+      "day": 36,
+      "slug": "day-36",
+      "title": "Securing Secrets with HashiCorp Vault",
+      "description": "Day 36 topic: Securing Secrets with HashiCorp Vault",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Secrets Management & HashiCorp Vault",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2023-37",
+      "year": "2023",
+      "day": 37,
+      "slug": "day-37",
+      "title": "Working with HashiCorp Vault's Secrets Engines",
+      "description": "Day 37 topic: Working with HashiCorp Vault's Secrets Engines",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Secrets Management & HashiCorp Vault",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2023-38",
+      "year": "2023",
+      "day": 38,
+      "slug": "day-38",
+      "title": "Increase the Security Posture of Your Organization with Dynamic Credentials",
+      "description": "Day 38 topic: Increase the Security Posture of Your Organization with Dynamic Credentials ",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Secrets Management & HashiCorp Vault",
+      "estimatedMinutes": 9
+    },
+    {
+      "id": "2023-39",
+      "year": "2023",
+      "day": 39,
+      "slug": "day-39",
+      "title": "Getting Hands-On with HashiCorp Vault",
+      "description": "Day 39 topic: Getting Hands-On with HashiCorp Vault ",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Secrets Management & HashiCorp Vault",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2023-40",
+      "year": "2023",
+      "day": 40,
+      "slug": "day-40",
+      "title": "Understanding Kubernetes Secrets",
+      "description": "Day 40 topic: Understanding Kubernetes Secrets",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Secrets Management & HashiCorp Vault",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-41",
+      "year": "2023",
+      "day": 41,
+      "slug": "day-41",
+      "title": "Hands-On with Kubernetes Secrets",
+      "description": "Day 41 topic: Hands-On with Kubernetes Secrets",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Secrets Management & HashiCorp Vault",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2023-42",
+      "year": "2023",
+      "day": 42,
+      "slug": "day-42",
+      "title": "Programming Language:Introduction to Python",
+      "description": "Day 42 topic: Day 42 - Programming Language:Introduction to Python",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Python for DevOps & Security",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2023-43",
+      "year": "2023",
+      "day": 43,
+      "slug": "day-43",
+      "title": "Programming Language: Python Loops, functions, modules and libraries",
+      "description": "Day 43 topic: Day 43 - Programming Language: Python Loops, functions, modules and libraries",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Python for DevOps & Security",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2023-44",
+      "year": "2023",
+      "day": 44,
+      "slug": "day-44",
+      "title": "Programming Language: Python Data Structures and OOP",
+      "description": "Day 44 topic: Day 44 - Programming Language: Python Data Structures and OOP",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Python for DevOps & Security",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-45",
+      "year": "2023",
+      "day": 45,
+      "slug": "day-45",
+      "title": "Python: Debugging, testing and Regular expression",
+      "description": "Day 45 topic: Day 45 - Python: Debugging, testing and Regular expression",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Python for DevOps & Security",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2023-46",
+      "year": "2023",
+      "day": 46,
+      "slug": "day-46",
+      "title": "Web development in Python",
+      "description": "Day 46 topic: Day 46 - Web development in Python",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Python for DevOps & Security",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2023-47",
+      "year": "2023",
+      "day": 47,
+      "slug": "day-47",
+      "title": "Automation with Python",
+      "description": "Day 47 topic: Day 47 - Automation with Python",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Python for DevOps & Security",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2023-48",
+      "year": "2023",
+      "day": 48,
+      "slug": "day-48",
+      "title": "Let's build an App in Python",
+      "description": "Day 48 topic: Day 47 - Let's build an App in Python",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Python for DevOps & Security",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2023-49",
+      "year": "2023",
+      "day": 49,
+      "slug": "day-49",
+      "title": "AWS Cloud Overview",
+      "description": "Day 49 topic: Day 49: AWS Cloud Overview",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "Cloud Security on AWS",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2023-50",
+      "year": "2023",
+      "day": 50,
+      "slug": "day-50",
+      "title": "Get a Free Tier Account & Enable Billing Alarms",
+      "description": "Day 50 topic: Day 50: Get a Free Tier Account & Enable Billing Alarms",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "Cloud Security on AWS",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2023-51",
+      "year": "2023",
+      "day": 51,
+      "slug": "day-51",
+      "title": "Infrastructure as Code (IaC) and CloudFormation",
+      "description": "Day 51 topic: Day 51: Infrastructure as Code (IaC) and CloudFormation",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "Cloud Security on AWS",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2023-52",
+      "year": "2023",
+      "day": 52,
+      "slug": "day-52",
+      "title": "Identity and Access Management (IAM)",
+      "description": "Day 52 topic: Day 52: Identity and Access Management (IAM)",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "Cloud Security on AWS",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2023-53",
+      "year": "2023",
+      "day": 53,
+      "slug": "day-53",
+      "title": "AWS Systems Manager",
+      "description": "Day 53 topic: Day 53: AWS Systems Manager",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "Cloud Security on AWS",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2023-54",
+      "year": "2023",
+      "day": 54,
+      "slug": "day-54",
+      "title": "AWS CodeCommit",
+      "description": "Day 54 topic: Day 54: AWS CodeCommit",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "Cloud Security on AWS",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2023-55",
+      "year": "2023",
+      "day": 55,
+      "slug": "day-55",
+      "title": "AWS CodePipeline",
+      "description": "Day 55 topic: Day 55: AWS CodePipeline",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "Cloud Security on AWS",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2023-56",
+      "year": "2023",
+      "day": 56,
+      "slug": "day-56",
+      "title": "Why choose an enterprise Kubernetes platform?",
+      "description": "Day 56 topic: Why choose an enterprise Kubernetes platform?",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Enterprise Kubernetes & OpenShift",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2023-57",
+      "year": "2023",
+      "day": 57,
+      "slug": "day-57",
+      "title": "Red Hat OpenShift - Architecture",
+      "description": "Day 57 topic: Red Hat OpenShift - Architecture",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Enterprise Kubernetes & OpenShift",
+      "estimatedMinutes": 13
+    },
+    {
+      "id": "2023-58",
+      "year": "2023",
+      "day": 58,
+      "slug": "day-58",
+      "title": "Installing Red Hat OpenShift on VMware vSphere",
+      "description": "Day 58 topic: Installing Red Hat OpenShift on VMware vSphere",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Enterprise Kubernetes & OpenShift",
+      "estimatedMinutes": 16
+    },
+    {
+      "id": "2023-59",
+      "year": "2023",
+      "day": 59,
+      "slug": "day-59",
+      "title": "Deploying a Sample Application on Red Hat OpenShift: Handling Security Context Constraints (SCC)",
+      "description": "Day 59 topic: Deploying a Sample Application on Red Hat OpenShift: Handling Security Context Constraints (SCC)",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Enterprise Kubernetes & OpenShift",
+      "estimatedMinutes": 14
+    },
+    {
+      "id": "2023-60",
+      "year": "2023",
+      "day": 60,
+      "slug": "day-60",
+      "title": "OpenShift Projects - Creation, Configuration and Governance",
+      "description": "Day 60 topic: OpenShift Projects - Creation, Configuration and Governance",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Enterprise Kubernetes & OpenShift",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2023-61",
+      "year": "2023",
+      "day": 61,
+      "slug": "day-61",
+      "title": "Understanding Authentication, Role-Based Access Control (RBAC) and Auditing in Red Hat OpenShift: Control and Secure Your Cluster",
+      "description": "Day 61 topic: Understanding Authentication, Role-Based Access Control (RBAC) and Auditing in Red Hat OpenShift: Control and Secure Your Cluster",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Enterprise Kubernetes & OpenShift",
+      "estimatedMinutes": 20
+    },
+    {
+      "id": "2023-62",
+      "year": "2023",
+      "day": 62,
+      "slug": "day-62",
+      "title": "Compliance and Vulnerability Scanning provided by Red Hat OpenShift Operators",
+      "description": "Day 62 topic: Compliance and Vulnerability Scanning provided by Red Hat OpenShift Operators",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Enterprise Kubernetes & OpenShift",
+      "estimatedMinutes": 25
+    },
+    {
+      "id": "2023-63",
+      "year": "2023",
+      "day": 63,
+      "slug": "day-63",
+      "title": "An introduction to databases",
+      "description": "Day 63 topic: An introduction to databases",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "Database Administration & Security",
+      "estimatedMinutes": 11
+    },
+    {
+      "id": "2023-64",
+      "year": "2023",
+      "day": 64,
+      "slug": "day-64",
+      "title": "Querying data in databases",
+      "description": "Day 64 topic: Querying data in databases",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "Database Administration & Security",
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "2023-65",
+      "year": "2023",
+      "day": 65,
+      "slug": "day-65",
+      "title": "Backing up and restoring databases",
+      "description": "Day 65 topic: Backing up and restoring databases",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "Database Administration & Security",
+      "estimatedMinutes": 11
+    },
+    {
+      "id": "2023-66",
+      "year": "2023",
+      "day": 66,
+      "slug": "day-66",
+      "title": "High availability and disaster recovery",
+      "description": "Day 66 topic: High availability and disaster recovery",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "Database Administration & Security",
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "2023-67",
+      "year": "2023",
+      "day": 67,
+      "slug": "day-67",
+      "title": "Performance tuning",
+      "description": "Day 67 topic: Performance tuning",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "Database Administration & Security",
+      "estimatedMinutes": 9
+    },
+    {
+      "id": "2023-68",
+      "year": "2023",
+      "day": 68,
+      "slug": "day-68",
+      "title": "Database security",
+      "description": "Day 68 topic: Database security",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "Database Administration & Security",
+      "estimatedMinutes": 10
+    },
+    {
+      "id": "2023-69",
+      "year": "2023",
+      "day": 69,
+      "slug": "day-69",
+      "title": "Monitoring and troubleshooting database issues",
+      "description": "Day 69 topic: Monitoring and troubleshooting database issues",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "Database Administration & Security",
+      "estimatedMinutes": 11
+    },
+    {
+      "id": "2023-70",
+      "year": "2023",
+      "day": 70,
+      "slug": "day-70",
+      "title": "What is Serverless?",
+      "description": "Day 70 topic: What is Serverless?",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "Serverless Architectures & Security",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-71",
+      "year": "2023",
+      "day": 71,
+      "slug": "day-71",
+      "title": "Serverless Compute",
+      "description": "Day 71 topic: Serverless Compute",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "Serverless Architectures & Security",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-72",
+      "year": "2023",
+      "day": 72,
+      "slug": "day-72",
+      "title": "Serverless Storage",
+      "description": "Day 72 topic: Serverless Storage",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "Serverless Architectures & Security",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2023-73",
+      "year": "2023",
+      "day": 73,
+      "slug": "day-73",
+      "title": "Serverless APIs",
+      "description": "Day 73 topic: Serverless APIs",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "Serverless Architectures & Security",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-74",
+      "year": "2023",
+      "day": 74,
+      "slug": "day-74",
+      "title": "Serverless Orchestration",
+      "description": "Day 74 topic: Serverless Orchestration",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "Serverless Architectures & Security",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2023-75",
+      "year": "2023",
+      "day": 75,
+      "slug": "day-75",
+      "title": "Serverless & Well Architected",
+      "description": "Day 75 topic: Serverless & Well Architected",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "Serverless Architectures & Security",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2023-76",
+      "year": "2023",
+      "day": 76,
+      "slug": "day-76",
+      "title": "Serverless - Beyond the Basics",
+      "description": "Day 76 topic: Serverless - Beyond the Basics",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "Serverless Architectures & Security",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2023-77",
+      "year": "2023",
+      "day": 77,
+      "slug": "day-77",
+      "title": "Let's break down a Service Mesh - #90DaysOfDevOps",
+      "description": "Day 77 topic: Day 77 - Let's break down a Service Mesh - #90DaysOfDevOps",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Service Mesh Architecture (Istio)",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2023-78",
+      "year": "2023",
+      "day": 78,
+      "slug": "day-78",
+      "title": "Install and Test a Service Mesh",
+      "description": "Day 78 topic: Day 78 - Install and Test a Service Mesh",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Service Mesh Architecture (Istio)",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2023-79",
+      "year": "2023",
+      "day": 79,
+      "slug": "day-79",
+      "title": "Comparing Different Service Meshes",
+      "description": "Day 79 topic: Day 79 - Comparing Different Service Meshes",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Service Mesh Architecture (Istio)",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2023-80",
+      "year": "2023",
+      "day": 80,
+      "slug": "day-80",
+      "title": "Traffic Engineering Basics",
+      "description": "Day 80 topic: Day 80 - Traffic Engineering Basics",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Service Mesh Architecture (Istio)",
+      "estimatedMinutes": 11
+    },
+    {
+      "id": "2023-81",
+      "year": "2023",
+      "day": 81,
+      "slug": "day-81",
+      "title": "Observability in your Mesh",
+      "description": "Day 81 topic: Day 81 - Observability in your Mesh",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Service Mesh Architecture (Istio)",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2023-82",
+      "year": "2023",
+      "day": 82,
+      "slug": "day-82",
+      "title": "Securing your microservices",
+      "description": "Day 82 topic: Day 82 - Securing your microservices",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Service Mesh Architecture (Istio)",
+      "estimatedMinutes": 9
+    },
+    {
+      "id": "2023-83",
+      "year": "2023",
+      "day": 83,
+      "slug": "day-83",
+      "title": "Sidecar or Sidecar-less? Enter Ambient Mesh",
+      "description": "Day 83 topic: Day 83 - Sidecar or Sidecar-less? Enter Ambient Mesh",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Service Mesh Architecture (Istio)",
+      "estimatedMinutes": 9
+    },
+    {
+      "id": "2023-84",
+      "year": "2023",
+      "day": 84,
+      "slug": "day-84",
+      "title": "Writing an API - What is an API?",
+      "description": "Day 84 topic: Writing an API - What is an API? ",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Engineering for Day 2 Operations & Wrap-Up",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2023-85",
+      "year": "2023",
+      "day": 85,
+      "slug": "day-85",
+      "title": "Queues, Queue workers and Tasks (Asynchronous architecture)",
+      "description": "Day 85 topic: Queues, Queue workers and Tasks (Asynchronous architecture)",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Engineering for Day 2 Operations & Wrap-Up",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2023-86",
+      "year": "2023",
+      "day": 86,
+      "slug": "day-86",
+      "title": "Designing for Resilience, Redundancy and Reliability",
+      "description": "Day 86 topic: Designing for Resilience, Redundancy and Reliability",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Engineering for Day 2 Operations & Wrap-Up",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2023-87",
+      "year": "2023",
+      "day": 87,
+      "slug": "day-87",
+      "title": "Zero Downtime Deployments",
+      "description": "Day 87 topic: Zero Downtime Deployments",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Engineering for Day 2 Operations & Wrap-Up",
+      "estimatedMinutes": 5
+    },
+    {
+      "id": "2023-88",
+      "year": "2023",
+      "day": 88,
+      "slug": "day-88",
+      "title": "Monitoring, Alerting and On-Call",
+      "description": "Day 88 topic: Monitoring, Alerting and On-Call",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Engineering for Day 2 Operations & Wrap-Up",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2023-89",
+      "year": "2023",
+      "day": 89,
+      "slug": "day-89",
+      "title": "Oops: When something goes wrong - Post Mortems",
+      "description": "Day 89 topic: Oops: When something goes wrong - Post Mortems",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Engineering for Day 2 Operations & Wrap-Up",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2023-90",
+      "year": "2023",
+      "day": 90,
+      "slug": "day-90",
+      "title": "Wrapping up the 2023 edition",
+      "description": "Day 90 topic: Wrapping up the 2023 edition",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Engineering for Day 2 Operations & Wrap-Up",
+      "estimatedMinutes": 6
+    }
+  ],
+  "2024": [
+    {
+      "id": "2024-1",
+      "year": "2024",
+      "day": 1,
+      "slug": "day-01",
+      "title": "2024 - Community Edition - Introduction",
+      "description": "Day 1 topic: Day 1 - 2024 - Community Edition - Introduction",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "Community Keynotes & Digital Factory",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-2",
+      "year": "2024",
+      "day": 2,
+      "slug": "day-02",
+      "title": "The Digital Factory",
+      "description": "Day 2 topic: Day 2 - The Digital Factory",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "Community Keynotes & Digital Factory",
+      "estimatedMinutes": 6
+    },
+    {
+      "id": "2024-3",
+      "year": "2024",
+      "day": 3,
+      "slug": "day-03",
+      "title": "High-performing engineering teams and the Holy Grail",
+      "description": "Day 3 topic: Day 3 - High-performing engineering teams and the Holy Grail",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "Community Keynotes & Digital Factory",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-4",
+      "year": "2024",
+      "day": 4,
+      "slug": "day-04",
+      "title": "Manage Kubernetes Add-Ons for Multiple Clusters Using Cluster Run-Time State",
+      "description": "Day 4 topic: Day 4 - Manage Kubernetes Add-Ons for Multiple Clusters Using Cluster Run-Time State",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "Community Keynotes & Digital Factory",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-5",
+      "year": "2024",
+      "day": 5,
+      "slug": "day-05",
+      "title": "Cross functional empathy",
+      "description": "Day 5 topic: Day 5 - Cross functional empathy",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "Community Keynotes & Digital Factory",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-6",
+      "year": "2024",
+      "day": 6,
+      "slug": "day-06",
+      "title": "Kubernetes RBAC with Ansible",
+      "description": "Day 6 topic: Day 6 - Kubernetes RBAC with Ansible",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "Community Keynotes & Digital Factory",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-7",
+      "year": "2024",
+      "day": 7,
+      "slug": "day-07",
+      "title": "Isn't Test Automation A Silver Bullet",
+      "description": "Day 7 topic: Day 7 - Isn't Test Automation A Silver Bullet",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 1,
+      "moduleTitle": "Community Keynotes & Digital Factory",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-8",
+      "year": "2024",
+      "day": 8,
+      "slug": "day-08",
+      "title": "Culinary Coding: Crafting Infrastructure Recipes with OpenTofu",
+      "description": "Day 8 topic: Day 8 - Culinary Coding: Crafting Infrastructure Recipes with OpenTofu",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Cloud & Infrastructure Architecture",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-9",
+      "year": "2024",
+      "day": 9,
+      "slug": "day-09",
+      "title": "Why should developers care about container security?",
+      "description": "Day 9 topic: Day 9 - Why should developers care about container security?",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Cloud & Infrastructure Architecture",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-10",
+      "year": "2024",
+      "day": 10,
+      "slug": "day-10",
+      "title": "Is Kubernetes Too Complicated?",
+      "description": "Day 10 topic: Day 10 - Is Kubernetes Too Complicated?",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Cloud & Infrastructure Architecture",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-11",
+      "year": "2024",
+      "day": 11,
+      "slug": "day-11",
+      "title": "Video",
+      "description": "Day 11 topic: Video",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Cloud & Infrastructure Architecture",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-12",
+      "year": "2024",
+      "day": 12,
+      "slug": "day-12",
+      "title": "Know your data: The Stats behind the Alerts",
+      "description": "Day 12 topic: Day 12 - Know your data: The Stats behind the Alerts",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Cloud & Infrastructure Architecture",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-13",
+      "year": "2024",
+      "day": 13,
+      "slug": "day-13",
+      "title": "Architecting for Versatility",
+      "description": "Day 13 topic: Day 13 - Architecting for Versatility",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Cloud & Infrastructure Architecture",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-14",
+      "year": "2024",
+      "day": 14,
+      "slug": "day-14",
+      "title": "An introduction to API Security in Kubernetes",
+      "description": "Day 14 topic: Day 14 - An introduction to API Security in Kubernetes",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 2,
+      "moduleTitle": "Cloud & Infrastructure Architecture",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-15",
+      "year": "2024",
+      "day": 15,
+      "slug": "day-15",
+      "title": "Using code dependency analysis to decide what to test",
+      "description": "Day 15 topic: Day 15 - Using code dependency analysis to decide what to test",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Container & Kubernetes Deep Dives",
+      "estimatedMinutes": 11
+    },
+    {
+      "id": "2024-16",
+      "year": "2024",
+      "day": 16,
+      "slug": "day-16",
+      "title": "Smarter, Better, Faster, Stronger - Testing at Scale",
+      "description": "Day 16 topic: Day 16 - Smarter, Better, Faster, Stronger - Testing at Scale",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Container & Kubernetes Deep Dives",
+      "estimatedMinutes": 18
+    },
+    {
+      "id": "2024-17",
+      "year": "2024",
+      "day": 17,
+      "slug": "day-17",
+      "title": "From Chaos to Resilience: Decoding the Secrets of Production Readiness",
+      "description": "Day 17 topic: Day 17 - From Chaos to Resilience: Decoding the Secrets of Production Readiness",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Container & Kubernetes Deep Dives",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-18",
+      "year": "2024",
+      "day": 18,
+      "slug": "day-18",
+      "title": "Platform Engineering Is Not About Tech",
+      "description": "Day 18 topic: Day 18 - Platform Engineering Is Not About Tech",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Container & Kubernetes Deep Dives",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-19",
+      "year": "2024",
+      "day": 19,
+      "slug": "day-19",
+      "title": "Building Efficient and Secure Docker Images with Multi-Stage Builds",
+      "description": "Day 19 topic: Day 19 - Building Efficient and Secure Docker Images with Multi-Stage Builds",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Container & Kubernetes Deep Dives",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-20",
+      "year": "2024",
+      "day": 20,
+      "slug": "day-20",
+      "title": "Navigating the Vast DevOps Terrain: Strategies for Learning and Staying Current",
+      "description": "Day 20 topic: Day 20 - Navigating the Vast DevOps Terrain: Strategies for Learning and Staying Current",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Container & Kubernetes Deep Dives",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-21",
+      "year": "2024",
+      "day": 21,
+      "slug": "day-21",
+      "title": "Azure ARM now got Bicep",
+      "description": "Day 21 topic: Day 21 - Azure ARM now got Bicep",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 3,
+      "moduleTitle": "Container & Kubernetes Deep Dives",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-22",
+      "year": "2024",
+      "day": 22,
+      "slug": "day-22",
+      "title": "Test in Production with Kubernetes and Telepresence",
+      "description": "Day 22 topic: Day 22 - Test in Production with Kubernetes and Telepresence",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Platform Engineering & Internal Portals",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-23",
+      "year": "2024",
+      "day": 23,
+      "slug": "day-23",
+      "title": "SQL Server 2022 on Linux Containers and Kubernetes from Zero to a Hero!",
+      "description": "Day 23 topic: Day 23 - SQL Server 2022 on Linux Containers and Kubernetes from Zero to a Hero!",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Platform Engineering & Internal Portals",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-24",
+      "year": "2024",
+      "day": 24,
+      "slug": "day-24",
+      "title": "DevSecOps - Defined, Explained & Explored",
+      "description": "Day 24 topic: Day 24 - DevSecOps - Defined, Explained & Explored",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Platform Engineering & Internal Portals",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-25",
+      "year": "2024",
+      "day": 25,
+      "slug": "day-25",
+      "title": "Kube-Nation: Exploring the Land of Kubernetes",
+      "description": "Day 25 topic: Day 25  - Kube-Nation: Exploring the Land of Kubernetes",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Platform Engineering & Internal Portals",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-26",
+      "year": "2024",
+      "day": 26,
+      "slug": "day-26",
+      "title": "Advanced Code Coverage with Jenkins and API Mocking",
+      "description": "Day 26 topic: Day 26 - Advanced Code Coverage with Jenkins and API Mocking",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Platform Engineering & Internal Portals",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-27",
+      "year": "2024",
+      "day": 27,
+      "slug": "day-27",
+      "title": "From Automated to Automatic - Event-Driven Infrastructure Management with Ansible",
+      "description": "Day 27 topic: Day 27 - From Automated to Automatic - Event-Driven Infrastructure Management with Ansible",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Platform Engineering & Internal Portals",
+      "estimatedMinutes": 8
+    },
+    {
+      "id": "2024-28",
+      "year": "2024",
+      "day": 28,
+      "slug": "day-28",
+      "title": "Talos Linux on vSphere",
+      "description": "Day 28 topic: Day 28 - Talos Linux on vSphere",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 4,
+      "moduleTitle": "Platform Engineering & Internal Portals",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-29",
+      "year": "2024",
+      "day": 29,
+      "slug": "day-29",
+      "title": "A Practical introduction to OpenTelemetry tracing",
+      "description": "Day 29 topic: Day 29 - A Practical introduction to OpenTelemetry tracing",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "GitOps & Delivery Automation",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-30",
+      "year": "2024",
+      "day": 30,
+      "slug": "day-30",
+      "title": "How GitHub delivers GitHub using GitHub",
+      "description": "Day 30 topic: Day 30 - How GitHub delivers GitHub using GitHub",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "GitOps & Delivery Automation",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-31",
+      "year": "2024",
+      "day": 31,
+      "slug": "day-31",
+      "title": "GitOps on AKS",
+      "description": "Day 31 topic: Day 31 - GitOps on AKS",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "GitOps & Delivery Automation",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-32",
+      "year": "2024",
+      "day": 32,
+      "slug": "day-32",
+      "title": "Cracking Cholera’s Code: Victorian Insights for Today’s Technologist",
+      "description": "Day 32 topic: Day 32 - Cracking Cholera’s Code: Victorian Insights for Today’s Technologist",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "GitOps & Delivery Automation",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-33",
+      "year": "2024",
+      "day": 33,
+      "slug": "day-33",
+      "title": "GitOps made simple with ArgoCD and GitHub Actions",
+      "description": "Day 33 topic: Day 33 - GitOps made simple with ArgoCD and GitHub Actions",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "GitOps & Delivery Automation",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-34",
+      "year": "2024",
+      "day": 34,
+      "slug": "day-34",
+      "title": "How to Implement Automated Deployment Pipelines for Your DevOps Projects",
+      "description": "Day 34 topic: Day 34 - How to Implement Automated Deployment Pipelines for Your DevOps Projects",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "GitOps & Delivery Automation",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-35",
+      "year": "2024",
+      "day": 35,
+      "slug": "day-35",
+      "title": "Azure for DevSecOps Operators",
+      "description": "Day 35 topic: Day 35 - Azure for DevSecOps Operators",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 5,
+      "moduleTitle": "GitOps & Delivery Automation",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-36",
+      "year": "2024",
+      "day": 36,
+      "slug": "day-36",
+      "title": "Policy-as-Code Super-Powers! Rethinking Modern IaC With Service Mesh And CNI",
+      "description": "Day 36 topic: Day 36 - Policy-as-Code Super-Powers! Rethinking Modern IaC With Service Mesh And CNI",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Observability, SRE & Chaos Engineering",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-37",
+      "year": "2024",
+      "day": 37,
+      "slug": "day-37",
+      "title": "Day 37",
+      "description": "Day 37 topic: Day 37",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Observability, SRE & Chaos Engineering",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-38",
+      "year": "2024",
+      "day": 38,
+      "slug": "day-38",
+      "title": "Open Standards: Empowering Cloud-Native Innovation",
+      "description": "Day 38 topic: Day 38 - Open Standards: Empowering Cloud-Native Innovation",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Observability, SRE & Chaos Engineering",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-39",
+      "year": "2024",
+      "day": 39,
+      "slug": "day-39",
+      "title": "Is TLS in Kubernetes really that hard to understand?",
+      "description": "Day 39 topic: Day 39 - Is TLS in Kubernetes really that hard to understand?",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Observability, SRE & Chaos Engineering",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-40",
+      "year": "2024",
+      "day": 40,
+      "slug": "day-40",
+      "title": "Infrastructure as Code - A look at Azure Bicep and Terraform",
+      "description": "Day 40 topic: Day 40 - Infrastructure as Code - A look at Azure Bicep and Terraform",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Observability, SRE & Chaos Engineering",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-41",
+      "year": "2024",
+      "day": 41,
+      "slug": "day-41",
+      "title": "My journey to reimagining DevOps: Ushering in the Second Wave",
+      "description": "Day 41 topic: Day 41 - My journey to reimagining DevOps: Ushering in the Second Wave",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Observability, SRE & Chaos Engineering",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-42",
+      "year": "2024",
+      "day": 42,
+      "slug": "day-42",
+      "title": "The North Star: Risk-driven security",
+      "description": "Day 42 topic: Day 42 - The North Star: Risk-driven security",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 6,
+      "moduleTitle": "Observability, SRE & Chaos Engineering",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-43",
+      "year": "2024",
+      "day": 43,
+      "slug": "day-43",
+      "title": "Let's go sidecarless in Ambient Mesh",
+      "description": "Day 43 topic: Day 43 - Let's go sidecarless in Ambient Mesh",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Cloud Native Security & Zero Trust",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-44",
+      "year": "2024",
+      "day": 44,
+      "slug": "day-44",
+      "title": "Exploring Firecracker",
+      "description": "Day 44 topic: Day 44 - Exploring Firecracker",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Cloud Native Security & Zero Trust",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-45",
+      "year": "2024",
+      "day": 45,
+      "slug": "day-45",
+      "title": "Microsoft DevOps Solutions or how to integrate the best of Azure DevOps and GitHub",
+      "description": "Day 45 topic: Day 45 - Microsoft DevOps Solutions or how to integrate the best of Azure DevOps and GitHub",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Cloud Native Security & Zero Trust",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-46",
+      "year": "2024",
+      "day": 46,
+      "slug": "day-46",
+      "title": "Mastering AWS Systems Manager: Simplifying Infrastructure Management",
+      "description": "Day 46 topic: Day 46 - Mastering AWS Systems Manager: Simplifying Infrastructure Management",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Cloud Native Security & Zero Trust",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-47",
+      "year": "2024",
+      "day": 47,
+      "slug": "day-47",
+      "title": "Azure logic app, low / no code",
+      "description": "Day 47 topic: Day 47 - Azure logic app, low / no code",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Cloud Native Security & Zero Trust",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-48",
+      "year": "2024",
+      "day": 48,
+      "slug": "day-48",
+      "title": "From Puddings to Platforms: Bringing Ideas to life with ChatGPT",
+      "description": "Day 48 topic: Day 48 - From Puddings to Platforms: Bringing Ideas to life with ChatGPT",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Cloud Native Security & Zero Trust",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-49",
+      "year": "2024",
+      "day": 49,
+      "slug": "day-49",
+      "title": "From Confusion To Clarity: Gherkin & Specflow Ensures Clear Requirements and Bug-Free Apps",
+      "description": "Day 49 topic: Day 49 - From Confusion To Clarity: Gherkin & Specflow Ensures Clear Requirements and Bug-Free Apps",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 7,
+      "moduleTitle": "Cloud Native Security & Zero Trust",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-50",
+      "year": "2024",
+      "day": 50,
+      "slug": "day-50",
+      "title": "State of Cloud Native 2024",
+      "description": "Day 50 topic: Day 50 - State of Cloud Native 2024",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "AI, LLMs & MLOps in DevOps",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-51",
+      "year": "2024",
+      "day": 51,
+      "slug": "day-51",
+      "title": "DevOps on Windows",
+      "description": "Day 51 topic: Day 51 - DevOps on Windows",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "AI, LLMs & MLOps in DevOps",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-52",
+      "year": "2024",
+      "day": 52,
+      "slug": "day-52",
+      "title": "Creating a custom Dev Container for your GitHub Codespace to start with Terraform on Azure",
+      "description": "Day 52 topic: Day 52 - Creating a custom Dev Container for your GitHub Codespace to start with Terraform on Azure",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "AI, LLMs & MLOps in DevOps",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-53",
+      "year": "2024",
+      "day": 53,
+      "slug": "day-53",
+      "title": "Gickup - Keep your repositories safe",
+      "description": "Day 53 topic: Day 53 - Gickup - Keep your repositories safe",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "AI, LLMs & MLOps in DevOps",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-54",
+      "year": "2024",
+      "day": 54,
+      "slug": "day-54",
+      "title": "Mastering AWS OpenSearch: Terraform Provisioning and Cost Efficiency Series",
+      "description": "Day 54 topic: Day 54 - Mastering AWS OpenSearch: Terraform Provisioning and Cost Efficiency Series",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "AI, LLMs & MLOps in DevOps",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-55",
+      "year": "2024",
+      "day": 55,
+      "slug": "day-55",
+      "title": "Bringing Together IaC and CM with Terraform Provider for Ansible",
+      "description": "Day 55 topic: Day 55 - Bringing Together IaC and CM with Terraform Provider for Ansible",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "AI, LLMs & MLOps in DevOps",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-56",
+      "year": "2024",
+      "day": 56,
+      "slug": "day-56",
+      "title": "Automated database deployment within the DevOps process",
+      "description": "Day 56 topic: Day 56 - Automated database deployment within the DevOps process",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 8,
+      "moduleTitle": "AI, LLMs & MLOps in DevOps",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-57",
+      "year": "2024",
+      "day": 57,
+      "slug": "day-57",
+      "title": "A practical guide to Test-Driven Development of infrastructure code",
+      "description": "Day 57 topic: Day 57 - A practical guide to Test-Driven Development of infrastructure code",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Data Engineering & Cloud-Native Storage",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-58",
+      "year": "2024",
+      "day": 58,
+      "slug": "day-58",
+      "title": "The Reverse Technology Thrust",
+      "description": "Day 58 topic: Day 58 -  The Reverse Technology Thrust",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Data Engineering & Cloud-Native Storage",
+      "estimatedMinutes": 7
+    },
+    {
+      "id": "2024-59",
+      "year": "2024",
+      "day": 59,
+      "slug": "day-59",
+      "title": "Continuous Delivery pipelines for cloud infrastructure",
+      "description": "Day 59 topic: Day 59 - Continuous Delivery pipelines for cloud infrastructure",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Data Engineering & Cloud-Native Storage",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-60",
+      "year": "2024",
+      "day": 60,
+      "slug": "day-60",
+      "title": "Migrating a monolith to Cloud-Native and the stumbling blocks that you don’t know about",
+      "description": "Day 60 topic: Day 60 - Migrating a monolith to Cloud-Native and the stumbling blocks that you don’t know about",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Data Engineering & Cloud-Native Storage",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-61",
+      "year": "2024",
+      "day": 61,
+      "slug": "day-61",
+      "title": "Demystifying Modernisation: True Potential of Cloud Technology",
+      "description": "Day 61 topic: Day 61 - Demystifying Modernisation: True Potential of Cloud Technology",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Data Engineering & Cloud-Native Storage",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-62",
+      "year": "2024",
+      "day": 62,
+      "slug": "day-62",
+      "title": "Shifting Left for DevSecOps Using Modern Edge Platforms",
+      "description": "Day 62 topic: Day 62 - Shifting Left for DevSecOps Using Modern Edge Platforms",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Data Engineering & Cloud-Native Storage",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-63",
+      "year": "2024",
+      "day": 63,
+      "slug": "day-63",
+      "title": "Diving into Container Network Namespaces",
+      "description": "Day 63 topic: Day 63 - Diving into Container Network Namespaces",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 9,
+      "moduleTitle": "Data Engineering & Cloud-Native Storage",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-64",
+      "year": "2024",
+      "day": 64,
+      "slug": "day-64",
+      "title": "Let’s Do DevOps: Writing a New Terraform /Tofu AzureRm Data Source — All Steps!",
+      "description": "Day 64 topic: Day 64 - Let’s Do DevOps: Writing a New Terraform /Tofu AzureRm Data Source — All Steps!",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "FinOps & Cloud Cost Governance",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-65",
+      "year": "2024",
+      "day": 65,
+      "slug": "day-65",
+      "title": "Azure pertinent DevOps for non-coders",
+      "description": "Day 65 topic: Day 65 - Azure pertinent DevOps for non-coders",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "FinOps & Cloud Cost Governance",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-66",
+      "year": "2024",
+      "day": 66,
+      "slug": "day-66",
+      "title": "A Developer's Journey to the DevOps: The Synergy of Two Worlds",
+      "description": "Day 66 topic: Day 66 - A Developer's Journey to the DevOps: The Synergy of Two Worlds",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "FinOps & Cloud Cost Governance",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-67",
+      "year": "2024",
+      "day": 67,
+      "slug": "day-67",
+      "title": "Art of DevOps: Harmonizing Code, Culture, and Continuous Delivery",
+      "description": "Day 67 topic: Day 67 - Art of DevOps: Harmonizing Code, Culture, and Continuous Delivery",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "FinOps & Cloud Cost Governance",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-68",
+      "year": "2024",
+      "day": 68,
+      "slug": "day-68",
+      "title": "Service Mesh for Kubernetes 101: The Secret Sauce to Effortless Microservices Management",
+      "description": "Day 68 topic: Day 68 - Service Mesh for Kubernetes 101: The Secret Sauce to Effortless Microservices Management",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "FinOps & Cloud Cost Governance",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-69",
+      "year": "2024",
+      "day": 69,
+      "slug": "day-69",
+      "title": "Enhancing Kubernetes security, visibility, and networking control logic at the Linux kernel",
+      "description": "Day 69 topic: Day 69 - Enhancing Kubernetes security, visibility, and networking control logic at the Linux kernel",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "FinOps & Cloud Cost Governance",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-70",
+      "year": "2024",
+      "day": 70,
+      "slug": "day-70",
+      "title": "Day 70 Simplified Cloud Adoption with Microsoft's Terraforms Azure Landing Zone Module",
+      "description": "Day 70 topic: Day 70 Simplified Cloud Adoption with Microsoft's Terraforms Azure Landing Zone Module",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 10,
+      "moduleTitle": "FinOps & Cloud Cost Governance",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-71",
+      "year": "2024",
+      "day": 71,
+      "slug": "day-71",
+      "title": "Chatbots are going to destroy infrastructures and your cloud bills",
+      "description": "Day 71 topic: Day 71 - Chatbots are going to destroy infrastructures and your cloud bills",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "Edge Computing & Hybrid Operations",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-72",
+      "year": "2024",
+      "day": 72,
+      "slug": "day-72",
+      "title": "Infrastructure as Code with Pulumi",
+      "description": "Day 72 topic: Day 72 - Infrastructure as Code with Pulumi",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "Edge Computing & Hybrid Operations",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-73",
+      "year": "2024",
+      "day": 73,
+      "slug": "day-73",
+      "title": "Introducing the Terraform Test Framework",
+      "description": "Day 73 topic: Day 73 - Introducing the Terraform Test Framework",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "Edge Computing & Hybrid Operations",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-74",
+      "year": "2024",
+      "day": 74,
+      "slug": "day-74",
+      "title": "Workload Identity Federation with Azure DevOps and Terraform",
+      "description": "Day 74 topic: Day 74 - Workload Identity Federation with Azure DevOps and Terraform",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "Edge Computing & Hybrid Operations",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-75",
+      "year": "2024",
+      "day": 75,
+      "slug": "day-75",
+      "title": "Distracted Development",
+      "description": "Day 75 topic: Day 75 - Distracted Development",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "Edge Computing & Hybrid Operations",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-76",
+      "year": "2024",
+      "day": 76,
+      "slug": "day-76",
+      "title": "All you need to know about AWS CDK",
+      "description": "Day 76 topic: Day 76 - All you need to know about AWS CDK",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "Edge Computing & Hybrid Operations",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-77",
+      "year": "2024",
+      "day": 77,
+      "slug": "day-77",
+      "title": "Connect to Microsoft APIs in Azure DevOps Pipelines using Workload Identity Federation",
+      "description": "Day 77 topic: Day 77 - Connect to Microsoft APIs in Azure DevOps Pipelines using Workload Identity Federation",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 11,
+      "moduleTitle": "Edge Computing & Hybrid Operations",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-78",
+      "year": "2024",
+      "day": 78,
+      "slug": "day-78",
+      "title": "Scaling Terraform Deployments with GitHub Actions: Essential Configurations",
+      "description": "Day 78 topic: Day 78 - Scaling Terraform Deployments with GitHub Actions: Essential Configurations",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Developer Experience & Productivity",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-79",
+      "year": "2024",
+      "day": 79,
+      "slug": "day-79",
+      "title": "DevEdOps",
+      "description": "Day 79 topic: Day 79 - DevEdOps",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Developer Experience & Productivity",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-80",
+      "year": "2024",
+      "day": 80,
+      "slug": "day-80",
+      "title": "Unlocking K8s Troubleshooting Best Practices with Botkube",
+      "description": "Day 80 topic: Day 80 - Unlocking K8s Troubleshooting Best Practices with Botkube",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Developer Experience & Productivity",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-81",
+      "year": "2024",
+      "day": 81,
+      "slug": "day-81",
+      "title": "Leveraging Kubernetes to build a better Cloud Native Development Experience",
+      "description": "Day 81 topic: Day 81 -  Leveraging Kubernetes to build a better Cloud Native Development Experience",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Developer Experience & Productivity",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-82",
+      "year": "2024",
+      "day": 82,
+      "slug": "day-82",
+      "title": "Dev Containers in VS Code",
+      "description": "Day 82 topic: Day 82 - Dev Containers in VS Code",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Developer Experience & Productivity",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-83",
+      "year": "2024",
+      "day": 83,
+      "slug": "day-83",
+      "title": "Saving Cloud Costs Using Existing Prometheus Metrics",
+      "description": "Day 83 topic: Day 83 - Saving Cloud Costs Using Existing Prometheus Metrics",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Developer Experience & Productivity",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-84",
+      "year": "2024",
+      "day": 84,
+      "slug": "day-84",
+      "title": "Hacking Kubernetes For Beginners",
+      "description": "Day 84 topic: Day 84 - Hacking Kubernetes For Beginners",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 12,
+      "moduleTitle": "Developer Experience & Productivity",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-85",
+      "year": "2024",
+      "day": 85,
+      "slug": "day-85",
+      "title": "Reuse, Don't Repeat - Creating an Infrastructure as Code Module Library",
+      "description": "Day 85 topic: Day 85 - Reuse, Don't Repeat - Creating an Infrastructure as Code Module Library",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Community Wrap-up & The Future of DevOps",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-86",
+      "year": "2024",
+      "day": 86,
+      "slug": "day-86",
+      "title": "Tools To Make Your Terminal DevOps and Kubernetes Friendly",
+      "description": "Day 86 topic: Day 86 - Tools To Make Your Terminal DevOps and Kubernetes Friendly",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Community Wrap-up & The Future of DevOps",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-87",
+      "year": "2024",
+      "day": 87,
+      "slug": "day-87",
+      "title": "Hands-on Performance Testing with k6",
+      "description": "Day 87 topic: Day 87 - Hands-on Performance Testing with k6",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Community Wrap-up & The Future of DevOps",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-88",
+      "year": "2024",
+      "day": 88,
+      "slug": "day-88",
+      "title": "What Developers Want from Internal Developer Portals",
+      "description": "Day 88 topic: Day 88 - What Developers Want from Internal Developer Portals",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Community Wrap-up & The Future of DevOps",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-89",
+      "year": "2024",
+      "day": 89,
+      "slug": "day-89",
+      "title": "Seeding Infrastructures: Merging Terraform with Generative AI for Effortless DevOps Gardens",
+      "description": "Day 89 topic: Day 89 - Seeding Infrastructures: Merging Terraform with Generative AI for Effortless DevOps Gardens",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Community Wrap-up & The Future of DevOps",
+      "estimatedMinutes": 3
+    },
+    {
+      "id": "2024-90",
+      "year": "2024",
+      "day": 90,
+      "slug": "day-90",
+      "title": "Fighting fire with fire: Why we cannot always prevent technical issues with more tech",
+      "description": "Day 90 topic: Day 90 - Fighting fire with fire: Why we cannot always prevent technical issues with more tech",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Community Wrap-up & The Future of DevOps",
+      "estimatedMinutes": 4
+    },
+    {
+      "id": "2024-91",
+      "year": "2024",
+      "day": 91,
+      "slug": "day-91",
+      "title": "Team Topologies and Platform Engineering",
+      "description": "Day 91 topic: Day91 - Team Topologies and Platform Engineering",
+      "tags": [
+        "devops"
+      ],
+      "moduleNumber": 13,
+      "moduleTitle": "Community Wrap-up & The Future of DevOps",
+      "estimatedMinutes": 4
+    }
+  ]
+}

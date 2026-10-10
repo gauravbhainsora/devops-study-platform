@@ -1,0 +1,380 @@
+import { ModuleQuiz } from './types';
+
+export const MODULE_QUIZZES: Record<number, ModuleQuiz> = {
+  1: {
+    moduleNumber: 1,
+    title: 'DevOps Culture & Fundamentals Quiz',
+    description: 'Test your understanding of the DevOps mindset, continuous feedback loops, and software delivery lifecycle stages.',
+    questions: [
+      {
+        id: 'q1-1',
+        question: 'Which of the following is the most accurate definition of DevOps?',
+        options: [
+          'A specific software SKU or paid tool suite that you install on servers',
+          'A cultural philosophy, practices, and tools that increase an organization’s ability to deliver applications at high velocity',
+          'A dedicated department that writes code on behalf of developers',
+          'A proprietary cloud-only standard mandated by cloud providers',
+        ],
+        correctIndex: 1,
+        explanation: 'DevOps is fundamentally a cultural movement and set of practices unifying software development and IT operations to deliver value continuously, rather than a single tool or job title.',
+      },
+      {
+        id: 'q1-2',
+        question: 'What are the two foundational feedback loops in the DevOps lifecycle?',
+        options: [
+          'Monthly sprint retrospectives and executive quarterly reviews',
+          'Continuous code commits and quarterly release freezes',
+          'Fast left-to-right flow of work, and right-to-left fast feedback loops from operations back into development',
+          'Automated email notifications to clients and customer support ticket creation',
+        ],
+        correctIndex: 2,
+        explanation: 'As described in the DevOps Handbook, the First Way is fast left-to-right flow, and the Second Way is amplifying fast right-to-left feedback loops to fix bugs immediately.',
+      },
+      {
+        id: 'q1-3',
+        question: 'In the continuous delivery pipeline, what is the primary role of "shift-left"?',
+        options: [
+          'Moving servers from cloud back to on-premise infrastructure',
+          'Introducing security, testing, and quality checks earlier in the development lifecycle',
+          'Delaying testing until software reaches the staging environment',
+          'Assigning operations engineers to write frontend HTML templates',
+        ],
+        correctIndex: 1,
+        explanation: '"Shift-left" means running tests, vulnerability scans, and linting earlier in the development process so defects are identified and remediated when they are easiest and cheapest to fix.',
+      },
+    ],
+  },
+  2: {
+    moduleNumber: 2,
+    title: 'Programming with Go Quiz',
+    description: 'Assess your knowledge of the Go programming language, compilation, pointers, and CLI tool architecture.',
+    questions: [
+      {
+        id: 'q2-1',
+        question: 'Why is the Go language particularly popular for modern DevOps and cloud native tooling (e.g. Docker, Kubernetes, Terraform)?',
+        options: [
+          'Go requires an external JVM runtime installed on every host',
+          'Go compiles to a single, statically linked binary with fast execution and minimal runtime dependencies',
+          'Go is an interpreted scripting language identical to Python',
+          'Go only runs on Google Cloud servers',
+        ],
+        correctIndex: 1,
+        explanation: 'Go generates self-contained static binaries without requiring external runtime dependencies, making it ideal for containerization and CLI tools.',
+      },
+      {
+        id: 'q2-2',
+        question: 'In Go, what operator is used to obtain the memory address of a variable (creating a pointer)?',
+        options: ['*', '&', '$', '#'],
+        correctIndex: 1,
+        explanation: 'The `&` operator generates a pointer to its operand (e.g., `&myVar` returns the memory address), whereas `*` is used to dereference the pointer.',
+      },
+      {
+        id: 'q2-3',
+        question: 'What is the command used in Go to initialize a new module in your current directory?',
+        options: ['go init module', 'go create package', 'go mod init <module-path>', 'go start project'],
+        correctIndex: 2,
+        explanation: '`go mod init <module-path>` initializes and creates a new `go.mod` file for dependency tracking in Go.',
+      },
+    ],
+  },
+  3: {
+    moduleNumber: 3,
+    title: 'Linux Administration & Shell Scripting Quiz',
+    description: 'Check your mastery of core Linux terminal commands, permissions, filesystem navigation, and bash automation.',
+    questions: [
+      {
+        id: 'q3-1',
+        question: 'What does the Linux permission `chmod 755 script.sh` grant to the owner, group, and others?',
+        options: [
+          'Read, write, execute for owner; read and execute for group and others',
+          'Read and write for all users; no execution',
+          'Read only for owner; full access for group and others',
+          'Execute only for owner; read only for others',
+        ],
+        correctIndex: 0,
+        explanation: '7 (4+2+1 = rwx) for the file owner, 5 (4+0+1 = r-x) for the group, and 5 (4+0+1 = r-x) for others.',
+      },
+      {
+        id: 'q3-2',
+        question: 'Which Linux command is used to inspect disk space usage of mounted filesystems in human-readable format?',
+        options: ['du -sh', 'df -h', 'ls -lh', 'free -m'],
+        correctIndex: 1,
+        explanation: '`df -h` displays disk space usage of filesystems in human-readable units (MB, GB), while `du` checks disk usage of individual directories/files.',
+      },
+      {
+        id: 'q3-3',
+        question: 'In a Bash script, which shebang line ensures the script is executed using the bash interpreter found in the system environment PATH?',
+        options: ['#!/usr/bin/python3', '#!/bin/sh', '#!/usr/bin/env bash', '#/bin/bash'],
+        correctIndex: 2,
+        explanation: '`#!/usr/bin/env bash` is portable across various Unix-like distributions because it resolves the location of bash through the environment PATH.',
+      },
+    ],
+  },
+  4: {
+    moduleNumber: 4,
+    title: 'Computer Networking for DevOps Quiz',
+    description: 'Test your understanding of the OSI layers, TCP/UDP, DNS resolution, and networking diagnostic commands.',
+    questions: [
+      {
+        id: 'q4-1',
+        question: 'At which layer of the OSI 7-layer model do IP addresses and routers operate?',
+        options: ['Layer 2 - Data Link', 'Layer 3 - Network', 'Layer 4 - Transport', 'Layer 7 - Application'],
+        correctIndex: 1,
+        explanation: 'Layer 3 (Network Layer) handles packet routing, logical addressing (IPv4/IPv6), and path determination.',
+      },
+      {
+        id: 'q4-2',
+        question: 'What is the primary operational difference between TCP and UDP?',
+        options: [
+          'TCP is connection-oriented with guaranteed delivery and order; UDP is connectionless and best-effort',
+          'UDP is only used for encrypted communications, while TCP is unencrypted',
+          'TCP only works on local area networks, whereas UDP works over the internet',
+          'TCP uses IP addresses, whereas UDP uses MAC addresses',
+        ],
+        correctIndex: 0,
+        explanation: 'TCP includes a three-way handshake, retransmission, and packet ordering. UDP has lower latency without transmission guarantees.',
+      },
+      {
+        id: 'q4-3',
+        question: 'Which DNS record type maps a domain name directly to an IPv4 address?',
+        options: ['AAAA Record', 'CNAME Record', 'MX Record', 'A Record'],
+        correctIndex: 3,
+        explanation: 'An `A` record maps a hostname to an IPv4 address. `AAAA` maps to an IPv6 address, and `CNAME` creates an alias to another domain.',
+      },
+    ],
+  },
+  5: {
+    moduleNumber: 5,
+    title: 'Cloud Foundations (AWS & Azure) Quiz',
+    description: 'Verify your grasp of cloud computing models, storage classes, and shared responsibility.',
+    questions: [
+      {
+        id: 'q5-1',
+        question: 'Under the Cloud Shared Responsibility Model, which component is ALWAYS the customer’s responsibility in IaaS?',
+        options: [
+          'Physical datacenter security and hardware cooling',
+          'Hypervisor patch management',
+          'Customer data, OS configuration, network security groups, and IAM policies',
+          'Physical fiber optic network cables',
+        ],
+        correctIndex: 2,
+        explanation: 'In IaaS, the cloud provider manages physical hardware and virtualization, while the customer is responsible for guest OS, applications, firewalls, and data.',
+      },
+      {
+        id: 'q5-2',
+        question: 'What is the Azure equivalent of an Amazon S3 Bucket for scalable object storage?',
+        options: ['Azure Virtual Machine', 'Azure Blob Storage Container', 'Azure Cosmos DB', 'Azure Elastic File'],
+        correctIndex: 1,
+        explanation: 'Azure Blob Storage is Microsoft’s object storage solution for massive amounts of unstructured data, equivalent to AWS S3.',
+      },
+    ],
+  },
+  6: {
+    moduleNumber: 6,
+    title: 'Git & Version Control Mastery Quiz',
+    description: 'Test your understanding of Git commits, branching strategies, rebase vs merge, and team workflows.',
+    questions: [
+      {
+        id: 'q6-1',
+        question: 'What does `git rebase main` do when executed from a feature branch?',
+        options: [
+          'It permanently deletes the feature branch commits',
+          'It reapplies the feature branch commits on top of the tip of the main branch, creating a linear history',
+          'It creates an automatic merge commit connecting the branches',
+          'It resets all files to their initial commit status',
+        ],
+        correctIndex: 1,
+        explanation: 'Rebasing unwinds your feature branch commits, updates the branch to match the base branch, and reapplies each feature commit sequentially for a clean linear log.',
+      },
+      {
+        id: 'q6-2',
+        question: 'Which command allows you to temporarily shelve uncommitted working directory changes without committing them?',
+        options: ['git stash', 'git pause', 'git checkout -b temp', 'git save'],
+        correctIndex: 0,
+        explanation: '`git stash` records the current state of the working directory and index and reverts back to a clean working directory.',
+      },
+    ],
+  },
+  7: {
+    moduleNumber: 7,
+    title: 'Containers & Docker Architecture Quiz',
+    description: 'Assess container concepts, Dockerfile instructions, layering, and multi-container orchestration.',
+    questions: [
+      {
+        id: 'q7-1',
+        question: 'What fundamental Linux kernel features enable container isolation and resource restriction?',
+        options: [
+          'Virtual Box BIOS and UEFI hypervisors',
+          'Namespaces (for isolation) and cgroups / Control Groups (for resource limits)',
+          'Ext4 filesystem drivers and swap partitions',
+          'Apache web modules and cron daemons',
+        ],
+        correctIndex: 1,
+        explanation: 'Namespaces provide isolated process, network, and mount views. Cgroups enforce memory, CPU, and I/O resource quotas.',
+      },
+      {
+        id: 'q7-2',
+        question: 'Why should you order Dockerfile instructions from least frequently changed to most frequently changed?',
+        options: [
+          'Docker requires alphabetically ordered commands',
+          'To maximize Docker build cache hits and dramatically speed up image builds',
+          'To reduce container memory consumption at runtime',
+          'Because compilers only read top layers',
+        ],
+        correctIndex: 1,
+        explanation: 'Docker caches layers sequentially. If an early layer changes (e.g. copying source code before installing packages), all subsequent layers are invalidated.',
+      },
+    ],
+  },
+  8: {
+    moduleNumber: 8,
+    title: 'Kubernetes & Container Orchestration Quiz',
+    description: 'Challenge your knowledge of the K8s control plane, Pod lifecycle, Services, and Helm packaging.',
+    questions: [
+      {
+        id: 'q8-1',
+        question: 'Which component is the central brain and single source of truth for all Kubernetes cluster state?',
+        options: ['kubelet', 'kube-proxy', 'etcd', 'containerd'],
+        correctIndex: 2,
+        explanation: 'etcd is a consistent, highly-available key-value store used as Kubernetes’ backing store for all cluster data.',
+      },
+      {
+        id: 'q8-2',
+        question: 'What Kubernetes abstraction provides stable networking and load balancing across a dynamic set of ephemeral Pods?',
+        options: ['ReplicaSet', 'Service', 'Namespace', 'ConfigMap'],
+        correctIndex: 1,
+        explanation: 'A Kubernetes Service provides a stable IP address, DNS name, and load balancing across Pods matching label selectors.',
+      },
+    ],
+  },
+  9: {
+    moduleNumber: 9,
+    title: 'Infrastructure as Code (Terraform) Quiz',
+    description: 'Test your understanding of declarative IaC, Terraform state, plans, and provider architecture.',
+    questions: [
+      {
+        id: 'q9-1',
+        question: 'Why is the Terraform state file (`terraform.tfstate`) critical to operations?',
+        options: [
+          'It contains the encrypted SSH keys to log into machines',
+          'It maps real-world provisioned cloud resources to your configuration files and tracks metadata',
+          'It is only needed during initial setup and can be safely deleted',
+          'It acts as the cloud provider billing portal',
+        ],
+        correctIndex: 1,
+        explanation: 'Terraform uses state to determine what changes need to be made to match configuration with real-world infrastructure.',
+      },
+      {
+        id: 'q9-2',
+        question: 'What is the command to preview changes that Terraform will make before applying them?',
+        options: ['terraform preview', 'terraform verify', 'terraform plan', 'terraform test'],
+        correctIndex: 2,
+        explanation: '`terraform plan` creates an execution plan, letting you inspect the additions, modifications, and deletions Terraform intends to perform.',
+      },
+    ],
+  },
+  10: {
+    moduleNumber: 10,
+    title: 'Configuration Management (Ansible) Quiz',
+    description: 'Verify your knowledge of Ansible playbooks, agentless architecture, and inventory management.',
+    questions: [
+      {
+        id: 'q10-1',
+        question: 'What transport mechanism does Ansible use by default to manage remote Linux target nodes?',
+        options: ['Proprietary background daemon agent', 'SSH (Secure Shell)', 'Telnet', 'HTTP REST API server'],
+        correctIndex: 1,
+        explanation: 'Ansible is agentless; it connects to target Linux systems using standard SSH and executes lightweight Python modules.',
+      },
+      {
+        id: 'q10-2',
+        question: 'What property ensures that running an Ansible playbook multiple times produces the exact same system state without redundant modifications?',
+        options: ['Polymorphism', 'Idempotence', 'Immutability', 'Concurrency'],
+        correctIndex: 1,
+        explanation: 'Idempotence ensures an operation can be applied multiple times without changing the result beyond the initial application.',
+      },
+    ],
+  },
+  11: {
+    moduleNumber: 11,
+    title: 'CI/CD Pipelines & GitOps Quiz',
+    description: 'Test your understanding of automated pipelines, test execution, and GitOps delivery models.',
+    questions: [
+      {
+        id: 'q11-1',
+        question: 'In a modern GitOps workflow with ArgoCD or Flux, what represents the single source of truth for desired infrastructure and application state?',
+        options: ['The live Kubernetes cluster etcd database', 'A Git repository containing declarative manifests', 'The developer’s local laptop disk', 'The Docker container registry metadata'],
+        correctIndex: 1,
+        explanation: 'In GitOps, the Git repository is the single source of truth. Automated controllers continuously pull from Git and synchronize cluster state.',
+      },
+      {
+        id: 'q11-2',
+        question: 'Which GitHub Actions configuration file specifies workflows and triggers?',
+        options: ['package.json in root', 'YAML files inside the `.github/workflows/` directory', 'Dockerfile in root', '.gitlab-ci.yml'],
+        correctIndex: 1,
+        explanation: 'GitHub Actions parses `.yml` or `.yaml` workflow files located in `.github/workflows/` in the repository.',
+      },
+    ],
+  },
+  12: {
+    moduleNumber: 12,
+    title: 'Monitoring, Observability & Logs Quiz',
+    description: 'Assess your knowledge of the 3 pillars of observability, Prometheus metrics, and Grafana dashboards.',
+    questions: [
+      {
+        id: 'q12-1',
+        question: 'What are the classic "Three Pillars of Observability"?',
+        options: [
+          'Servers, Networks, and Hard Drives',
+          'Metrics, Logs, and Distributed Traces',
+          'CPU, RAM, and GPU',
+          'Development, Staging, and Production',
+        ],
+        correctIndex: 1,
+        explanation: 'Metrics provide quantitative aggregation over time, Logs detail discrete event context, and Traces follow individual request flows across microservices.',
+      },
+      {
+        id: 'q12-2',
+        question: 'How does Prometheus collect metric data from target services by default?',
+        options: [
+          'Prometheus uses a pull (scrape) model over HTTP to fetch metrics from `/metrics` endpoints',
+          'Target services stream logs via FTP to a central database',
+          'Prometheus queries external DNS servers every hour',
+          'Prometheus requires SNMP traps on UDP port 161',
+        ],
+        correctIndex: 0,
+        explanation: 'Prometheus periodically scrapes configured HTTP endpoints (default `/metrics`) exposing metrics in Prometheus text exposition format.',
+      },
+    ],
+  },
+  13: {
+    moduleNumber: 13,
+    title: 'Data Storage, Backup & Security Quiz',
+    description: 'Check your knowledge of persistent data protection, K8s stateful workloads, and ransomware defense.',
+    questions: [
+      {
+        id: 'q13-1',
+        question: 'What is the standard "3-2-1" backup rule for disaster recovery and business continuity?',
+        options: [
+          '3 minutes recovery time, 2 admins required, 1 cloud provider',
+          '3 copies of your data, on 2 different media types, with 1 copy stored off-site / in the cloud',
+          '3 database tables, 2 replicas, 1 primary server',
+          '3 daily snapshots, 2 weekly archives, 1 monthly purge',
+        ],
+        correctIndex: 1,
+        explanation: 'The 3-2-1 rule is the golden industry standard: 3 total copies of data, stored on 2 different types of media, with at least 1 copy offsite/immutable.',
+      },
+      {
+        id: 'q13-2',
+        question: 'Why do Kubernetes applications require application-consistent backups rather than simple disk snapshots alone?',
+        options: [
+          'Disks cannot be snapshotted in cloud environments',
+          'Databases need to flush transactions and quiesce memory buffers to prevent corruption during restore',
+          'Kubernetes does not support storage volumes',
+          'Linux filesystems self-destruct if snapshotted while mounted',
+        ],
+        correctIndex: 1,
+        explanation: 'Application-consistent backups interact with running databases (using pre/post hooks) to ensure in-memory buffers are flushed, preventing data corruption upon restoration.',
+      },
+    ],
+  },
+};
